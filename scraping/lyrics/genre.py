@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import time
 
 filename = "Test"
 
@@ -25,11 +26,13 @@ def list_of_lists():
     for item in lists:
         item = str(item)
         if 'List of' in item:
-            ref = item.split('\"')
-            get_wiki(ref[1])
+            if 'List of grime' not in item:
+                ref = item.split('\"')
+                global filename
+                filename = str(ref[3]).replace(" ", "_")
+                get_wiki(ref[1])
+    #        time.sleep(2)
 #            title = item.split('')
-            global filename
-            filename = str(ref[3]).replace(" ", "_")
 #            print(filename)
 #            get_wiki(str(ref))
 #            print(item)
