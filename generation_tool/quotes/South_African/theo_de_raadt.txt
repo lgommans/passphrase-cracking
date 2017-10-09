@@ -1,0 +1,7 @@
+South African,Scientist
+Linux people do what they do because they hate Microsoft.
+I work on OpenBSD fulltime, as the project leader. I set some directions, increase communication between the developers, and try to be involved in nearly every aspect of the base system.
+I started working on OpenBSD, and many earlier projects, because I have always felt that vendor systems were not designed for quality.
+The primary goal of a vendor is to make money.
+In some industry markets, high quality can be tied to making more money, but I am sure by now all of us know the computer industry is not like that.
+Linux has never been about quality. There are so many parts of the system that are just these cheap little hacks, and it happens to run.

@@ -1,0 +1,11 @@
+Irish,Businessman
+I watch virtually no TV. All my screen time is computer time for me. When I'm not doing that I'm reading or talking to my friends who I got to know through computers.
+In 2007, there weren't any other accelerators, at least that I was aware of. We were almost the prototypical Y Combinator founders: We were highly technical but had never done a startup before. We also didn't know anyone in the Valley - investors, other entrepreneurs, potential hires. YC seemed like a great way to bootstrap that network.
+I actually made a website called Y2 Combinator, which was the Y Combinator that starts Y Combinator clones. There's a very clear difference in the quality between the companies that come from YC and the companies that don't.
+It's very possible that advertising business models will simply never do as well on mobile devices as those oriented around transactions.
+When Facebook famously moved out to Palo Alto, there were people in the same house Facebook was based in working on different ideas. It is vital to remember that.
+Stripe makes it easy for anyone, be it an individual or a small business or a large business, to accept credit card payments on the Internet. We want to give control to the user or the business to define what the experience looks like. We work on a website or a mobile app, or whatever between that.
+One of the important lessons of the Internet is, how easy it is to get things done completely shapes what gets created. For that reason, technologies like Amazon's cloud service are very important. Even if they aren't technically impressive, they make things easy to do.
+Square is turning informal, cash transactions, like you would do with a taco truck, into card swipes. Stripe is more for the Internet, it's focused on the kinds of transactions that weren't possible years ago. We think about how you would buy things from a mobile phone, crowd-funding, how should that work.
+The part of Stripe that I've always found most interesting is the idea of facilitating new commerce that wouldn't otherwise happen. Payouts is turning out to be a big part of that. These new networks are efficient, intelligent replacements for offline behemoths.
+Our goal definitely isn't to sell Stripe.

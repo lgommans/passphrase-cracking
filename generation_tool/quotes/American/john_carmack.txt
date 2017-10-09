@@ -1,0 +1,33 @@
+American,Scientist
+A strong team can take any crazy vision and turn it into reality.
+Focused, hard work is the real key to success. Keep your eyes on the goal, and just keep taking the next step towards completing it. If you aren't sure which way to do something, do it both ways and see which works better.
+At its very core, virtual reality is about being freed from the limitations of actual reality. Carrying your virtual reality with you, and being able to jump into it whenever and wherever you want, qualitatively changes the experience for the better. Experiencing mobile VR is like when you first tried a decent desktop VR experience.
+The cost of adding a feature isn't just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion. The trick is to pick the features that don't fight each other.
+Programming is not a zero-sum game. Teaching something to a fellow programmer doesn't take it away from you. I'm happy to share what I can, because I'm in it for the love of programming.
+Focus is a matter of deciding what things you're not going to do.
+Low-level programming is good for the programmer's soul.
+I'd rather have a search engine or a compiler on a deserted island than a game.
+It's nice to have a game that sells a million copies.
+We were doing mobile games before the iPhone. We were doing free-to-play with 'Quake Live.' We wanted to do massively multiplayer stuff in the early days but didn't have the resources to do it.
+I consider myself a remarkably unsentimental person. I don't look back on the good old days.
+I don't think anyone is going to say great things about being a native developer on Android.
+It is a shame that homebrew development can't be officially sanctioned and supported, because it would be a wonderful platform for a modern generation of programmers to be able to get a real feel for low level design work, to be contrasted with the high level web and application work that so many entry level people start with.
+Rocket science has been mythologized all out of proportion to its true difficulty.
+I think that first-person shooter is a stable genre that's going to be here forever, just like there are going to be driving games forever. There's something just intrinsically rewarding about turning around a corner and shooting at something.
+The speed of light sucks.
+Oculus version three or five or whatever it ends up being is something that can be used unplugged - we'd have our own Android stuff and all that - but you could plug it into the PC and use that.
+It was great for me to go through all of my crazy Ferraris in my twenties. I think it was an inoculation against any kind of a midlife crisis.
+After the acquisition of id by Zenimax, we had sort of taken the mobile platform team down to a skeleton crew. We were left with about two people who were finishing up the previous obligations on that. The rest had just been dispersed and absorbed by the other teams in the company.
+When it became clear that I wasn't going to have the opportunity to do any work on VR while at id software, I decided to not renew my contract.
+Because of the nature of Moore's law, anything that an extremely clever graphics programmer can do at one point can be replicated by a merely competent programmer some number of years later.
+At its best, entertainment is going to be a subjective thing that can't win for everyone, while at worst, a particular game just becomes a random symbol for petty tribal behavior.
+Everybody's saturated with the marketing hype of next-generation consoles. They are wonderful, but the truth is that they are as powerful as a high end PC is right now.
+The Xbox 360 is the first console that I've ever worked with that actually has development tools that are better for games than what we've had on PC.
+Developing games for the PC and consoles is all about everything and the kitchen sink. In many ways, you don't have design decisions to make. You do it all. So I enjoy going back to making decisions about what's important as I'm working on a game.
+I have fond memories of the development work that led to a lot of great things in modern gaming - the intensity of the first person experience, LAN and Internet play, game mods, and so on.
+When people heard id Software's being acquired, everybody just assumed it would be Activision or EA. Why would we even consider going with a publisher that wasn't of that same size?
+We had staffed up to do 'Doom 4' internally in parallel with 'Rage'. We also had our mobile and 'Quake Live' departments. We were taking a lot of steps to kind of provide a little bit more scope and protection for ourselves. And we certainly were listening to offers from all the majors about acquisition.
+It's been great that every title that we've done internally has been a huge success, but when you've got 50 or 100 people on there, all their families and everyone counting on you there, the idea of 'What if you screw up once?' or 'What if the market changes?'
+It's nice to be able to, you know, for me to be able to personally do whatever the heck I feel like, whether I think that I can justify it exactly in business concerns or not.
+There is absolutely zero doubt that you can technically do an excellent full-featured FPS game, because these devices are more powerful now than, like, a previous generation Xbox.
+Being able to work on a more constrained project now and then is rewarding in a lot of ways, and of the available small platforms, I think that the iOS platform is clearly the best.

@@ -1,0 +1,27 @@
+Canadian,Author
+The three chief virtues of a programmer are: Laziness, Impatience and Hubris.
+I think computer science, by and large, is still stuck in the Modern age.
+For me, writing is a love-hate relationship.
+We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise.
+Programmers can be lazy.
+I talked about becoming stupid, but I've always been stupid. Fortunately I've been just smart enough to realize that I'm stupid.
+We are so Post-Modern that we don't realize how Post-Modern we are anymore.
+Doing linear scans over an associative array is like trying to club someone to death with a loaded Uzi.
+Real programmers can write assembly code in any language.
+The Harvard Law states: Under controlled conditions of light, temperature, humidity, and nutrition, the organism will do as it damn well pleases.
+Hubris itself will not let you be an artist.
+I am not a sort of person who wants to run a company.
+I still drive my 1977 Honda Accord. The paint is almost all worn off. It's still running.
+I take time to watch anime. I don't know whether I'm allowed to, but I do it anyway.
+I think operating systems work best if they're free and open. Particular applications are more likely to be proprietary.
+I think software patents are a bad idea. Many patents are given for trivial inventions.
+I think the way IBM has embraced the open source philosophy has been quite astonishing, but gratifying. I hope they'll do very well with it.
+I want people to use Perl. I want to be a positive ingredient of the world and make my American history. So, whatever it takes to give away my software and get it used, that's great.
+I'm just paid to do whatever I want to do. Some of the time it's development, and some of the time it's just goofing off.
+I'm never satisfied because I've been always interested in too many things and I always want to do everything at once.
+If any ideology is so serious that you can't have fun while you're doing it, it's probably too serious.
+If you're a large corporation, you can afford to pay the money to register patents, but if you're an individual like me, you can't.
+Many days I don't write any code at all, and some days I spend all day writing code.
+One of the very basic ideas of Post-Modernism is rejection of arbitrary power structures. Different people are sensitive to different kinds of power structures.
+Perl was designed to work more like a natural language. It's a little more complicated but there are more shortcuts, and once you learned the language, it's more expressive.
+Post-Modernism was a reaction against Modernism. It came quite early to music and literature, and a little later to architecture. And I think it's still coming to computer science.

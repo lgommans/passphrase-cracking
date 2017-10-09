@@ -1,0 +1,63 @@
+Finnish,Businessman
+Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
+I actually think that I'm a rather optimistic and happy person; it's just that I'm not a very positive person, if you see the difference.
+Software is like sex: it's better when it's free.
+In real open source, you have the right to control your own destiny.
+Intelligence is the ability to avoid doing work, yet getting the work done.
+My name is Linus, and I am your God.
+Once you start thinking more about where you want to be than about making the best product, you're screwed.
+A consumer doesn't take anything away: he doesn't actually consume anything. Giving the same thing to a thousand consumers is not really any more expensive than giving it to just one.
+No-one has ever called me a cool dude. I'm somewhere between geek and normal.
+By staying neutral, I end up being somebody that everybody can trust. Even if they don't always agree with my decisions, they know I'm not working against them.
+When you say 'I wrote a program that crashed Windows,' people just stare at you blankly and say 'Hey, I got those with the system, for free.'
+See, you not only have to be a good coder to create a system like Linux, you have to be a sneaky bastard too.
+Microsoft isn't evil, they just make really crappy operating systems.
+If Microsoft ever does applications for Linux it means I've won.
+I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today and the incredible advances that we have had. And I compare that to witchcraft and alchemy, where openness was something you didn't do.
+In open source, we feel strongly that to really do something well, you have to get a lot of people involved.
+Any program is only as good as it is useful.
+I don't try to be a threat to MicroSoft, mainly because I don't really see MS as competition. Especially not Windows-the goals of Linux and Windows are simply so different.
+I try to avoid long-range plans and visions - that way I can more easily deal with anything new that comes up.
+Making Linux GPL'd was definitely the best thing I ever did.
+I don't actually go to that many conferences. I do that a couple of times a year. Normally, I am not recognized; people don't throw their panties at me. I'm a perfectly normal person sitting in my den just doing my job.
+I think, fundamentally, open source does tend to be more stable software. It's the right way to do things.
+To be honest, the fact that people trust you gives you a lot of power over people. Having another person's trust is more powerful than all other management techniques put together.
+I've actually found the image of Silicon Valley as a hotbed of money-grubbing tech people to be pretty false, but maybe that's because the people I hang out with are all really engineers.
+I think of myself as an engineer, not as a visionary or 'big thinker.' I don't have any lofty goals.
+People enjoy the interaction on the Internet, and the feeling of belonging to a group that does something interesting: that's how some software projects are born.
+I used to be interested in Windows NT, but the more I see it, the more it looks like traditional Windows with a stabler kernel. I don't find anything technically interesting there.
+I very seldom worry about other systems. I concentrate pretty fully on just making Linux the best I can.
+I'm generally a very pragmatic person: that which works, works.
+I've been employed by the University of Helsinki, and they've been perfectly happy to keep me employed and doing Linux.
+I've been very happy with the commercial Linux CD-ROM vendors linux Red Hat.
+In many cases, the user interface to a program is the most important part for a commercial company: whether the programs works correctly or not seems to be secondary.
+In my opinion MS is a lot better at making money than it is at making good operating systems.
+Linux has definitely made a lot of sense even in a purely materialistic sense.
+Shareware tends to combine the worst of commercial software with the worst of free software.
+That's what makes Linux so good: you put in something, and that effort multiplies. It's a positive feedback cycle.
+What commercialism has brought into Linux has been the incentive to make a good distribution that is easy to use and that has all the packaging issues worked out.
+When it comes to software, I much prefer free software, because I have very seldom seen a program that has worked well enough for my needs, and having sources available can be a life-saver.
+You won't get sued for anticompetitive behavior.
+The memory management on the PowerPC can be used to frighten small children.
+Turtles are very stable and have been around forever. But they have problems adapting. When humans came along, turtles came under serious threat. Biodiversity is good, and I think it is good in technology as well.
+Hey, I'm a good software engineer, but I'm not exactly known for my fashion sense. White socks and sandals don't translate to 'good design sense'.
+I want my office to be quiet. The loudest thing in the room - by far - should be the occasional purring of the cat.
+Fairly cheap home computing was what changed my life.
+I'm perfectly happy complaining, because it's cathartic, and I'm perfectly happy arguing with people on the Internet because arguing is my favourite pastime - not programming.
+I don't have any authority over Linux other than this notion that I know what I'm doing.
+I spend a lot more time than any person should have to talking with lawyers and thinking about intellectual property issues.
+I don't see myself as a visionary at all.
+I'm a technical manager, but I don't have to take care of people. I only have to worry about technology itself.
+The thing I love about diving is the flowing feeling. I like a sport where the whole point is to move as little as humanly possible so your air supply will last longer. That's my kind of sport. Where the amount of effort spent is absolutely minimal.
+In many ways, I am very happy about the whole Linux commercial market because the commercial market is doing all these things that I have absolutely zero interest in doing myself.
+Software patents, in particular, are very ripe for abuse. The whole system encourages big corporations getting thousands and thousands of patents. Individuals almost never get them.
+To be a nemesis, you have to actively try to destroy something, don't you? Really, I'm not out to destroy Microsoft. That will just be a completely unintentional side effect.
+I personally think of Linux development as being pretty non-localized, and I work with all the people entirely over e-mail - even if they happen to be working in the Portland area.
+I've felt strongly that the advantage of Linux is that it doesn't have a niche or any special market, but that different individuals and companies end up pushing it in the direction they want, and as such you end up with something that is pretty balanced across the board.
+I get the biggest enjoyment from the random and unexpected places. Linux on cellphones or refrigerators, just because it's so not what I envisioned it. Or on supercomputers.
+If you start doing things because you hate others and want to screw them over, the end result is bad.
+Part of doing Linux was that I had to communicate a lot more instead of just being a geek in front of a computer.
+Every once in a while an issue comes up where I have to make a statement. I can't totally avoid all political issues, but I try my best to minimize them. When I do make a statement, I try to be fairly neutral.
+I lose sleep if I end up feeling bad about something I've said. Usually that happens when I send something out without having read it over a few times, or when I call somebody names.
+It's a personality trait: from the very beginning, I knew what I was concentrating on. I'm only doing the kernel - I always found everything around it to be completely boring.
+What I find most interesting is how people really have taken Linux and used it in ways and attributes and motivations that I never felt.

@@ -9,8 +9,8 @@ gen_counter = 0
 
 def check_argument_validity():
     if len(sys.argv) == 1 or '-h' in sys.argv or '--help' in sys.argv: 
-        print('Usage:\t\tpypy ppgen.py <passphrases_to_crack> <seed_file_1> <seed_file_2> ...')
-	print('Example usage:\tpypy ppgen.py ./passphrase_file.txt ./quotes/einstein.txt ./artists/metallica.txt ./genres/*\n')        
+        print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...')
+	print('Example usage:\tpypy ppgen.py ./pp_file.txt ./quotes/*/albert_einstein.txt ./quotes/Celebrity/*\n')        
 	sys.exit()
 
 
@@ -73,7 +73,7 @@ def permute_special_chars(state):
 def cmp_phrase_with_input_phrases(state):
     global gen_counter, phrases_to_crack 
     gen_counter += 1
-    if gen_counter % 5000 == 0:
+    if gen_counter % 250000 == 0:
 	print('generated ' + str(gen_counter) + ' passphrases')
     
     for passphrase in phrases_to_crack:
@@ -93,6 +93,7 @@ for arg in sys.argv[2:]:
     all_lines = open(arg).read().strip().split('\n')
     metadata = all_lines[0]
     generate_passphrases(all_lines)
+    print('generated everything for ' + arg)
 
 print('generated ' + str(gen_counter) + ' passphrases')
-
+print('No success')

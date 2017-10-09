@@ -1,0 +1,4 @@
+American,Psychologist
+A technical survey that systematize, digest, and appraise the mid century state of psychology.
+The method of magnitude estimation provided a direct measure of sensation.
+The type of measure used placed constraints on which statistics can be used.

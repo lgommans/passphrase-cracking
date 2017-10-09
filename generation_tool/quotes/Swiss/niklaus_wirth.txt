@@ -1,0 +1,22 @@
+Swiss,Scientist
+The idea that one might derive satisfaction from his or her successful work, because that work is ingenious, beautiful, or just pleasing, has become ridiculed.
+But quality of work can be expected only through personal satisfaction, dedication and enjoyment. In our profession, precision and perfection are not a dispensible luxury, but a simple necessity.
+Programming is usually taught by examples.
+Software development is technical activity conducted by human beings.
+My duty as a teacher is to train, educate future programmers.
+A good designer must rely on experience, on precise, logic thinking; and on pedantic exactness. No magic will do.
+But active programming consists of the design of new programs, rather than contemplation of old programs.
+Clearly, programming courses should teach methods of design and construction, and the selected examples should be such that a gradual development can be nicely demonstrated.
+Experience shows that the success of a programming course critically depends on the choice of these examples.
+I have never designed a language for its own sake.
+In the practical world of computing, it is rather uncommon that a program, once it performs correctly and satisfactorily, remains unchanged forever.
+Indeed, the woes of Software Engineering are not due to lack of tools, or proper management, but largely due to lack of sufficient technical competence.
+It is evidently necessary to generate and test candidates for solutions in some systematic manner.
+Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy.
+My being a teacher had a decisive influence on making language and systems as simple as possible so that in my teaching, I could concentrate on the essential issues of programming rather than on details of language and notation.
+Nevertheless, I consider OOP as an aspect of programming in the large; that is, as an aspect that logically follows programming in the small and requires sound knowledge of procedural programming.
+Our ultimate goal is extensible programming (EP). By this, we mean the construction of hierarchies of modules, each module adding new functionality to the system.
+Program construction consists of a sequence of refinement steps.
+The possible solutions to a given problem emerge as the leaves of a tree, each node representing a point of deliberation and decision.
+Usually its users discover sooner or later that their program does not deliver all the desired results, or worse, that the results requested were not the ones really needed.
+Yet, I am convinced that there is a need for high quality software, and the time will come when it will be recognized that it is worth investing effort in its development and in using a careful, structured approach based on safe, structured languages.

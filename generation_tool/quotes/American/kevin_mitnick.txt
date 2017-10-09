@@ -1,0 +1,105 @@
+American,Businessman
+People are prone to taking mental shortcuts. They may know that they shouldn't give out certain information, but the fear of not being nice, the fear of appearing ignorant, the fear of a perceived authority figure - all these are triggers, which can be used by a social engineer to convince a person to override established security procedures.
+I wasn't a hacker for the money, and it wasn't to cause damage.
+The hacker mindset doesn't actually see what happens on the other side, to the victim.
+As a young boy, I was taught in high school that hacking was cool.
+At the end of the day, my goal was to be the best hacker.
+New security loopholes are constantly popping up because of wireless networking. The cat-and-mouse game between hackers and system administrators is still in full swing.
+I saw myself as an electronic joy rider.
+A lot of companies are clueless, because they spend most or all of their security budget on high-tech security like fire walls and biometric authentication - which are important and needed - but then they don't train their people.
+Social engineering is using manipulation, influence and deception to get a person, a trusted insider within an organization, to comply with a request, and the request is usually to release information or to perform some sort of action item that benefits that attacker.
+My hacking involved pretty much exploring computer systems and obtaining access to the source code of telecommunication systems and computer operating systems, because my goal was to learn all I can about security vulnerabilities within these systems.
+I trust online banking. You know why? Because if somebody hacks into my account and defrauds my credit card company, or my online bank account, guess who takes the loss? The bank, not me.
+Back up everything! You are not invulnerable. Catastrophic data loss can happen to you - one worm or Trojan is all it takes.
+Companies spend millions of dollars on firewalls, encryption, and secure access devices and it's money wasted because none of these measures address the weakest link in the security chain: the people who use, administer, operate and account for computer systems that contain protected information.
+The hacking trend has definitely turned criminal because of e-commerce.
+I was addicted to hacking, more for the intellectual challenge, the curiosity, the seduction of adventure; not for stealing, or causing damage or writing computer viruses.
+Hacking was the only entertainment that would occupy my mind - like a huge video game, but with real consequences. I could have evaded the FBI a lot longer if I had been able to control my passion for hacking.
+The key to social engineering is influencing a person to do something that allows the hacker to gain access to information or your network.
+I happen to be notorious. That, I have no control over.
+You can never protect yourself 100%. What you do is protect yourself as much as possible and mitigate risk to an acceptable degree. You can never remove all risk.
+What I found personally to be true was that it's easier to manipulate people rather than technology.
+I went from being a kid who loved to perform magic tricks to becoming the world's most notorious hacker, feared by corporations and the government.
+I characterize myself as a retired hacker. I'm applying what I know to improve security at companies.
+Hackers are becoming more sophisticated in conjuring up new ways to hijack your system by exploiting technical vulnerabilities or human nature. Don't become the next victim of unscrupulous cyberspace intruders.
+Back in my day, I would probe by hand. Now you can get commercial software that does the job for you.
+Social engineering is using deception, manipulation and influence to convince a human who has access to a computer system to do something, like click on an attachment in an e-mail.
+It doesn't work the same way everywhere. The Americans are the most gullible, because they don't like to deny co-workers' requests. People in the former Soviet bloc countries are less trusting, perhaps because of their previous experiences with their countries' secret services.
+Of course I'm sure half the people there hate me and half the people like me.
+I believe in having each device secured and monitoring each device, rather than just monitoring holistically on the network, and then responding in short enough time for damage control.
+I can go into LinkedIn and search for network engineers and come up with a list of great spear-phishing targets because they usually have administrator rights over the network. Then I go onto Twitter or Facebook and trick them into doing something, and I have privileged access.
+I get hired to hack into computers now and sometimes it's actually easier than it was years ago.
+I got so passionate about technology. Hacking to me was like a video game. It was about getting trophies. I just kept going on and on, despite all the trouble I was getting into, because I was hooked.
+It's true, I had hacked into a lot of companies, and took copies of the source code to analyze it for security bugs. If I could locate security bugs, I could become better at hacking into their systems. It was all towards becoming a better hacker.
+Oracle, for example, has even hired people to dumpster dive for information about its competitor, Microsoft. It's not even illegal, because trash isn't covered by data secrecy laws.
+My hacking was all about becoming the best at circumventing security. So when I was a fugitive, I worked systems administrator jobs to make money. I wasn't stealing money or using other people's credit cards. I was doing a 9-to-5 job.
+I was an accomplished computer trespasser. I don't consider myself a thief. I copied without permission.
+I saw myself as an electronic joy rider. I was like James Bond behind the computer. I was just having a blast.
+Our Constitution requires that the accused be presumed innocent before trial, thus granting all citizens the right to a bail hearing, where the accused has the opportunity to be represented by counsel, present evidence, and cross-examine witnesses.
+I'm not a fugitive anymore. Never will be in the future. After spending five years in jail, you learn your lesson. I never want to return there.
+It was used for decades to describe talented computer enthusiasts, people whose skill at using computers to solve technical problems and puzzles was - and is - respected and admired by others possessing similar technical skills.
+Steve Wozniak and Steve Jobs founded Apple Inc, which set the computing world on its ear with the Macintosh in 1984.
+My actions constituted pure hacking that resulted in relatively trivial expenses for the companies involved, despite the government's false claims.
+I'm an expert witness in a case that's in appeal about a guy who allegedly misappropriated source code from a major, major company - he actually worked there and then apparently they found it on his laptop later.
+We have problems with our physical security, operational security through to management.
+Then again, my case was all about the misappropriation of source code because I wanted to become the best hacker in the world and I enjoyed beating the security mechanisms.
+So what I was essentially doing was, I compromised the confidentiality of their proprietary software to advance my agenda of becoming the best at breaking through the lock.
+I made stupid decisions as a kid, or as a young adult, but I'm trying to be now, I'm trying to take this lemon and make lemonade.
+I was pretty much the government's poster boy for what I had done.
+So the ethic I was taught in school resulted in the path I chose in my life following school.
+Security is always going to be a cat and mouse game because there'll be people out there that are hunting for the zero day award, you have people that don't have configuration management, don't have vulnerability management, don't have patch management.
+But a lot of businesses out there don't see the return on investment, they look at it as a liability, and until they can understand that proactive security actually returns, gives them a return on investment, it's still a hard sell for people.
+Some people think technology has the answers.
+The perfect PIN is not four digits and not associated with your life, like an old telephone number. It's something easy for you to remember and hard for other people to guess.
+I did get a huge endorphin rush when I was able to crack a system because it was like a video game.
+I think malware is a significant threat because the mitigation, like antivirus software, hasn't evolved to a point to really mitigate the risk to a reasonable degree.
+It's actually a smarter crime because imagine if you rob a bank, or you're dealing drugs. If you get caught you're going to spend a lot of time in custody. But with hacking, it's much easier to commit the crime and the risk of punishment is slim to none.
+No company that I ever hacked into reported any damages, which they were required to do for significant losses. Sun didn't stop using Solaris and DEC didn't stop using VMS.
+Computer hacking really results in financial losses and hassles. The objectives of terrorist groups are more serious. That is not to say that cyber groups can't access a telephone switch in Manhattan on a day like 9/11, shut it down, and therefore cause more casualties.
+Once when I was a fugitive, I was working for a law firm in Denver.
+When an attacker fails with one person, they often go to another person. The key is to report the attack to other departments. Workers should know to act like they are going along with what the hacker wants and take copious notes so the company will know what the hacker is trying to find.
+It's kind of interesting, because hacking is a skill that could be used for criminal purposes or legitimate purposes, and so even though in the past I was hacking for the curiosity, and the thrill, to get a bite of the forbidden fruit of knowledge, I'm now working in the security field as a public speaker.
+A company can spend hundreds of thousands of dollars on firewalls, intrusion detection systems and encryption and other security technologies, but if an attacker can call one trusted person within the company, and that person complies, and if the attacker gets in, then all that money spent on technology is essentially wasted.
+Both social engineering and technical attacks played a big part in what I was able to do. It was a hybrid. I used social engineering when it was appropriate, and exploited technical vulnerabilities when it was appropriate.
+My argument is not that I shouldn't have been punished, but that the punishment didn't fit the crime.
+I could have evaded the FBI a lot longer if I had been able to control my passion for hacking.
+I get hired by companies to hack into their systems and break into their physical facilities to find security holes. Our success rate is 100%; we've always found a hole.
+No way, no how did I break into NORAD. That's a complete myth. And I never attempted to access anything considered to be classified government systems.
+Choosing a hard-to-guess, but easy-to-remember password is important!
+No company that I ever hacked into reported any damages, which they were required to do for significant losses.
+I use Mac. Not because it's more secure than everything else - because it is actually less secure than Windows - but I use it because it is still under the radar. People who write malicious code want the greatest return on their investment, so they target Windows systems. I still work with Windows in virtual machines.
+If you go to a coffee shop or at the airport, and you're using open wireless, I would use a VPN service that you could subscribe for 10 bucks a month. Everything is encrypted in an encryption tunnel, so a hacker cannot tamper with your connection.
+Being on the run wasn't fun, but it was something I had to do. I was actually working in legitimate jobs. I wasn't living on people's credit cards. I was living like a character out of a movie. It was performance art.
+Businesses should absolutely set aside funding in their budgets for security consultants. Unless there is an expert on staff, and there usually is not, it needs to be outsourced.
+What happens with smaller businesses is that they give in to the misconception that their site is secure because the system administrator deployed standard security products - firewalls, intrusion detection systems, or stronger authentication devices such as time-based tokens or biometric smart cards. But those things can be exploited.
+Most people assume that once security software is installed, they're protected. This isn't the case. It's critical that companies be proactive in thinking about security on a long-term basis.
+To have transactions made on your web site via credit card, you must be PCI compliant. Businesses make the mistake of thinking that because you passed the requirements and are PCI certified, you are immune to attacks.
+Most of the computer compromises that we hear about use a technique called spear phishing, which allows an attacker access to a key person's workstation. It's extremely difficult to defend against.
+I don't know the capabilities of our enemies. But I found it quite easy to circumvent security at certain phone companies throughout the United States. So if an inquisitive kid can do it, why can't a cyberterrorist do it?
+A log-in simulator is a program to trick some unknowing user into providing their user name and password.
+Sometimes I get a call from my bank, and the first thing they ask is, 'Mr. Mitnick, may I get your account number?' And I'll say, 'You called me! I'm not giving you my account number!'
+I was hooked in before hacking was even illegal.
+When I read about myself in the media, even I don't recognize me. The myth of Kevin Mitnick is much more interesting than the reality of Kevin Mitnick. If they told the reality, no one would care.
+I don't condone anyone causing damage in my name, or doing anything malicious in support of my plight. There are more productive ways to help me. As a hacker myself, I never intentionally damaged anything.
+The best thing to do is always keep randomly generated passwords everywhere and use a password tool to manage it, and then you don't have to remember those passwords at all, just the master password that unlocks the database.
+There's a feature on Facebook where you can enable security that checks the device you're coming from. By default these features are likely off, but as a consumer, you can enable them.
+A lot of individuals out there carry a lot of proprietary information on their mobile devices, and they're not protected. It's a very target-rich environment.
+I love solving puzzles, I love finding my way around obstacles, and I love learning new things about technology.
+The Internet is like the phone. To be without it is ridiculous.
+One of my all-time favorite pranks was gaining unauthorized access to the telephone switch and changing the class of service of a fellow phone phreak. When he'd attempt to make a call from home, he'd get a message telling him to deposit a dime, because the telephone company switch received input that indicated he was calling from a pay phone.
+I use Spam Arrest because of the amount of junk mail I get. Any legitimate person who wants to send me a message has to jump through hoops before they can be added to my opt-in list.
+I have done a lot to rehabilitate my reputation.
+Usually companies hire me, and they know full well who I am, and that's one of the reasons they want to hire me.
+Protecting yourself is very challenging in the hostile environment of the Internet. Imagine a global environment where an unscrupulous person from the other side of the planet can probe your computer for weaknesses and exploit them to gain access to your most sensitive secrets.
+Use a personal firewall. Configure it to prevent other computers, networks and sites from connecting to you, and specify which programs are allowed to connect to the net automatically.
+Not being allowed to use the Internet is kind of like not being allowed to use a telephone.
+The first programming assignment I had in high school was to find the first 100 Fibonacci numbers. Instead, I thought it would be cooler to write a program to get the teacher's password and all the other students' passwords. And the teacher gave me an A and told the class how smart I was.
+The government does things like insisting that all encryption programs should have a back door. But surely no one is stupid enough to think the terrorists are going to use encryption systems with a back door. The terrorists will simply hire a programmer to come up with a secure encryption scheme.
+If I needed to know about a security exploit, I preferred to get the information by accessing the companies' security teams' files, rather than poring over lines of code to find it on my own. It's just more efficient.
+I don't know of any case that involves computer hacking where there were multiple defendants charged where there wasn't an informant on the case.
+If hackers, if anyone committing a criminal act, wants to reduce their risk, they obviously don't involve anybody else. The greater the circle of people that know what you're doing, the higher the risk.
+For a long time, I was portrayed as the Osama bin Laden of the Internet, and I really wanted to be able to tell my side of the story. I wanted to be able to explain exactly what I did and what I didn't do to people who thought they knew me.
+Nine out of every 10 large corporations and government agencies have been attacked by computer intruders.
+I think a cyber-terrorism attack is overblown, though the threat exists. I think al Qaeda and other groups are more interested in symbolic terrorism, like what they did to the World Trade Center - suicide bombers or something that really has an effect and is meaningful to people.
+When somebody asks for a favor involving information, if you don't know him or can't verify his identity, just say no.
+Penetrating a company's security often starts with the bad guy obtaining some piece of information that seems so innocent, so everyday and unimportant, that most people in the organization don't see any reason why the item should be protected and restricted.
