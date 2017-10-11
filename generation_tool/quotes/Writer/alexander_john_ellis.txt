@@ -1,3 +1,0 @@
-English,Writer
-Rounding to the nearest cent is sufficiently accurate for practical purposes.
-Cents are the most universally used interval measure.

@@ -1,5 +1,0 @@
-German,Scientist
-The blood pigment haemoglobin is a compound which can be split by diverse methods into its constituents, pigment and protein.
-In cases of porphyria, a minor disease, the patient excretes large quantities of porphyrins.
-Coproporphyrin in particular is widespread; traces are present in normal urine and also in yeast. In special cultures, yeast can be made to produce considerable quantities of coproporphyrin.
-If we introduce iron complexly into ooporphyrin, we obtain haemin.

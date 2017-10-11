@@ -1,5 +1,0 @@
-American,Scientist
-In general, exchange reactions for the lighter isotopes have equilibrium constants sufficiently different from unity, so that the ratios of concentrations of the isotopes in two compounds which are in equilibrium differ by a few per cents in nearly all cases.
-The discovery of deuterium and the marked differences in the physical and chemical properties of hydrogen and deuterium, together with an efficient method for the separation of these isotopes, have opened an interesting field of research in several of the major branches of science.
-The space program is not only scientific in purpose but also is an expression of man's insistent determination to do the nearly impossible - to explore the unknown, even at great risk.
-Nature can always be more complicated than we imagine.

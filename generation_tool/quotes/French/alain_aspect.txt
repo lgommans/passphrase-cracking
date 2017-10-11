@@ -1,3 +1,0 @@
-French,Physicist
-The development of quantum mechanics early in the twentieth century obliged physicists to change radically the concepts they used to describe the world.
-The main ingredient of the first quantum revolution, wave-particle duality, has led to inventions such as the transistor and the laser that are at the root of the information society.
