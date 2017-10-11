@@ -1,0 +1,114 @@
+American,Journalist
+Cloud services cut both ways in terms of security: you get off-site backup and disaster recovery, but you entrust your secrets to somebody else's hands. Doing the latter increases your exposure to government surveillance and the potential for deliberate or inadvertent breaches of your confidential files.
+Privacy is relational. It depends on the audience. You don't want your employer to know you're job hunting. You don't spill all about your love life to your mom or your kids. You don't tell trade secrets to your rivals.
+Snowden is an orderly thinker, with an engineer's approach to problem-solving.
+White House officials acknowledge in broad terms that a president's time and public rhetoric are among his most valuable policy tools.
+Privacy and encryption work, but it's too easy to make a mistake that exposes you.
+U.S. surveillance of Pakistan extends far beyond its nuclear program. There are several references in the black budget to expanding U.S. scrutiny of chemical and biological laboratories.
+In effect, you cannot stop Iraq from growing nasty bugs in the basement. You can stop them from putting operational warheads on working missiles and launching them at their neighbors.
+NSA surveillance is a complex subject - legally, technically and operationally.
+Everyone and his Big Brother wants to log your browsing habits, the better to build a profile of who you are and how you live your life - online and off. Search engine companies offer a benefit in return: more relevant search results. The more they know about you, the better they can tailor information to your needs.
+One common puzzle for the security-minded is how to work with confidential data on the road. Sometimes you can't bring your laptop, or don't want to. But working on somebody else's machine exposes you to malware and leaves behind all kinds of electronic trails.
+'Social engineering,' the fancy term for tricking you into giving away your digital secrets, is at least as great a threat as spooky technology.
+You don't need to be a spook to care about encryption. If you travel with your computer or keep it in a place where other people can put their hands on it, you're vulnerable.
+I have no evidence of any relationship between IRS and NSA.
+Some misunderstandings are hard to cure.
+In the field of biological weapons, there is almost no prospect of detecting a pathogen until it has been used in an attack.
+I doubt there's any government in the world that guides itself primarily by strategy or conceptual documents or worldview. Anybody who has the reins of power has to look at practical limitations and tradeoffs - the fact that you can focus at most on one or two things at a time, that resources are limited.
+Early in 1986, the World Health Organization in Geneva still regarded AIDS as an ailment of the promiscuous few.
+A national security letter cannot be used to authorize eavesdropping or to read the contents of e-mail. But it does permit investigators to trace revealing paths through the private affairs of a modern digital citizen.
+Stuxnet, a computer worm reportedly developed by the United States and Israel that destroyed Iranian nuclear centrifuges in attacks in 2009 and 2010, is often cited as the most dramatic use of a cyber weapon.
+Activists and geeks, standing together, are demonstrating powers beyond the reach of government control.
+At the height of Iraq's clandestine nuclear weapons program, which nearly succeeded in building a bomb in 1991, Tuwaitha incorporated research reactors, uranium mining and enrichment facilities, chemical engineering plants and an explosives fabrication center to build the device that detonates a nuclear core.
+The CIA now assesses that four nations - Iraq, North Korea, Russia and, to the surprise of some specialists, France - have undeclared samples of the smallpox virus.
+Experts said public companies worry about the loss of customer confidence and the legal liability to shareholders or security vendors when they report flaws.
+On March 12, 2004, acting attorney general James B. Comey and the Justice Department's top leadership reached the brink of resignation over electronic surveillance orders that they believed to be illegal.
+Rolf Ekeus, his appearance can deceive. He looks somewhere between an international diplomat and a mad professor. He's got that sort of shock of white hair and a slightly absent-minded way of speaking. But he's extremely sharp and very serious about power relationships.
+Iraq has, in effect, one export of any consequence. That's oil.
+The first reports of AIDS closely followed the inauguration of President Ronald Reagan, whose 'family values' agenda and alliance with Christian conservatives associated AIDS with deviance and sin.
+Throughout the early and mid-1990s, the Clinton administration debated the merits of paying for AIDS testing and counseling of vulnerable populations overseas.
+In the wealthy industrialized nations, effective drug therapies against AIDS became available - AZT as early as 1987, then combinations of antiretroviral agents in 1996. The new drugs offered hope that fatal complications might be staved off and AIDS rendered a chronic condition.
+The first and pivotal negotiations over global access to AIDS drugs began in Geneva in 1991. They lasted two years, but confidential minutes suggest they were doomed the first day.
+Drug manufacturers could afford to sell AIDS drugs in Africa at virtually any discount. The companies said they did not do so because Africa lacked the requisite infrastructure.
+In Africa through the 1990s, with notable exceptions in Senegal and Uganda, nearly all the ruling powers denied they had a problem with AIDS.
+In 1995, Glaxo bought Burroughs Wellcome and became the presumptive leader in AIDS therapy.
+For a decade, makers of AIDS medicines had rejected the idea of lowering prices in poor countries for fear of eroding profits in rich ones. The position required a balancing act, because the companies had to deflect attacks on the global reach of their patents, which granted exclusive marketing rights for antiretroviral drugs.
+The modern era of continuity planning began under President Ronald Reagan.
+Of all Iraq's rocket scientists, none drew warier scrutiny abroad than Modher Sadeq-Saba Tamimi.
+The defection of Hussein Kamel was a turning point in the U.N.-imposed disarmament of Iraq in the 1990s.
+If Iraq had succeeded in spray-drying anthrax spores to extend their life and lethality, that would have been among the most important secrets of its wide-ranging weapons program.
+In late 2003, the Bush administration reversed a long-standing policy requiring agents to destroy their files on innocent American citizens, companies and residents when investigations closed.
+On average, since 9/11, the FBI reckons that just over 100,000 terrorism leads each year have come over the transom. Analysts and agents designate them as immediate, priority or routine, but the bureau says every one is covered.
+Most people inside the bureau believe that the blown opportunities to head off 9/11 would not recur today. Even among the FBI's doubters, few disagree that the bureau has come a long way.
+The NSA's business is 'information dominance,' the use of other people's secrets to shape events.
+For months, Obama administration officials attacked Snowden's motives and said the work of the NSA was distorted by selective leaks and misinterpretations.
+Snowden grants that NSA employees by and large believe in their mission and trust the agency to handle the secrets it takes from ordinary people - deliberately, in the case of bulk records collection, and 'incidentally,' when the content of American phone calls and e-mails are swept into NSA systems along with foreign targets.
+In computer circles, any unencrypted data is known as 'cleartext.'
+CloudShield did not see itself as a cloak-and-dagger company. It made its name for high-end hardware that could peer deeply into Internet traffic and pull out and analyze 'packets' of data as they flew by.
+No one can keep track of how many people use Internet, how many machines it can reach, or even how many sub- and sub-sub-networks form a part of it.
+True net-heads sometimes resort to punctuation cartoons to get around the absence of inflection.
+As digital communications have multiplied, and NSA capabilities with them, the agency has shifted resources from surveillance of individual targets to the acquisition of communications on a planetary scale.
+The $52.6 billion U.S. intelligence arsenal is aimed mainly at unambiguous adversaries, including al-Qaida, North Korea and Iran. But top-secret budget documents reveal an equally intense focus on one purported ally: Pakistan.
+Pakistan has dozens of laboratories and production and storage sites scattered across the country. After developing warheads with highly enriched uranium, it has more recently tried to do the same with more-powerful and compact plutonium.
+Pakistan has accepted some security training from the CIA, but U.S. export restrictions and Pakistani suspicions have prevented the two countries from sharing the most sophisticated technology for safeguarding nuclear components.
+China and Russia are regarded as the most formidable cyber threats.
+The Obama administration has provided almost no public information about the NSA's compliance record.
+There is no reliable way to calculate from the number of recorded compliance issues how many Americans have had their communications improperly collected, stored or distributed by the NSA.
+The causes and severity of NSA infractions vary widely. One in 10 incidents is attributed to a typographical error in which an analyst enters an incorrect query and retrieves data about U.S phone calls or emails.
+The NSA has different reporting requirements for each branch of government and each of its legal authorities.
+At Cheney's initiative, the United States stripped terror suspects of long-established rights under domestic and international law, building a new legal edifice under exclusive White House ownership.
+By now, you've heard endless warnings about the risk of short, trivial passwords. There's a good chance you ignore them.
+Even complex passwords are getting easy to break if they're too short. That's because today's inexpensive computer chips have the power of supercomputers from the year 2000.
+If you do write down your passwords, don't make it obvious which password corresponds to which account. Even better, write the passwords incorrectly and make up an easy rule for fixing them. You could decide to add 1 to each number in your password, so that 2x6Y is written as 3x7Y.
+Suppose a bad guy guesses the password for your throwaway Yahoo address. Now he goes to major banking and commerce sites and looks for an account registered to that email address. When he finds one, he clicks the 'forgot my password' button and a new one is sent - to your compromised email account. Now he's in a position to do you serious harm.
+Google appears to be the worst of the major search engines from a privacy point of view; Ask.com, with AskEraser turned on, is among the best.
+The best way to preserve your privacy is to use a search engine that does not keep your logs in the first place. That's the approach used by Startpage and its European parent company, Ixquick.
+Most computers today have built in backup software.
+For personal use, I recommend the free and open-source Truecrypt, which comes in flavors for Windows, Mac and Linux.
+Nothing is absolute in security.
+I've always shied away from online data storage. I don't even use my employers' network drives for anything sensitive. I want to control access myself.
+Well-secured files don't do you much good if you lose them in a fire or hard drive crash.
+I favor pocket-sized hard drives that travel between home and office, syncing with computers on both ends.
+The Patriot Act unleashed the FBI to search your email, travel and credit records without even a suspicion of wrongdoing.
+I learned the technology and tradecraft of electronic security in self defense, with a lot of expert help.
+As Trotsky didn't exactly say, you may not be interested in electronic snoops, but snoops are interested in you, whether or not you keep Coke's secret recipe on your iPhone.
+Friend of mine, a smart journalist, had his iPad stolen. He couldn't help that - the thief broke into his house. But his private, personal data wasn't stolen, exactly. Donated, more like. He had no passcode set on the iPad.
+A minimum precaution: keep your anti-malware protections up to date, and install security updates for all your software as soon as they arrive.
+It no longer counts as remarkable that Egyptians organized their uprising on social media.
+Federal prosecutors want to indict Julian Assange for making public a great many classified documents.
+The Obama administration, like those before it, promotes a disturbingly narrow interpretation of the Fourth Amendment, misapplying the facts of old analog cases to a radically different digital world.
+Companies that receive government information demands have to obey the law, but they often have room for maneuver. They scarcely ever use it.
+We know what's in our Cheerios and in our retirement accounts because the law requires disclosure.
+Dell fills its computers with crapware, collecting fees from McAfee and other vendors to pre-install 'trial' versions.
+Given the volume of PC sales and the way McAfee runs its operation, I imagine there must be thousands of phantom subscribers - folks who signed up once upon a time and left the software behind two or three computers ago.
+I do read licenses, and they aggravate me, but a computer isn't much good without software. When I need a product, I hold my nose and click 'agree.'
+It turns out that American Express honors recurring payments even if the vendor is unable to supply an accurate card number and expiration date. An Amex phone representative said this is a feature, not a bug, which makes sure my bills are paid.
+The IronClad is faster than most thumb drives but far slower than a standard hard drive. Boot up, application launch and other Windows operations feel sluggish, though still usable.
+I don't say I never use Facebook, but I often think about closing my account.
+Ghostery lets you spy on the spies in your computer. For each web page you visit, this extension uncloaks some - but not all - of the invisible tracking software that is working behind the scenes.
+NoScript is probably the most important privacy tool, but it costs you in convenience.
+When the 'New York Times' revealed the warrantless surveillance of voice calls, in December 2005, the telephone companies got nervous.
+In the urgent aftermath of Sept. 11, 2001, with more attacks thought to be imminent, analysts wanted to use 'contact chaining' techniques to build what the NSA describes as network graphs of people who represented potential threats.
+The first time I set out to find George F. Kennan, in 1982, I had just turned 21, begun my final semester at Princeton University and noticed with astonishment that the senior thesis deadline had crept to within four months.
+Enclosed by a sand berm four miles around and 160 feet high, the Baghdad Nuclear Research Facility entombs what remains of reactors bombed by Israel in 1981 and the United States in 1991. It has stored industrial and medical wastes, along with spent reactor fuel.
+Iraq has the most extensive petrochemical industry in the Middle East and a wealth of vaccine factories, single-cell protein research labs, medical and veterinary manufacturing centers and water treatment plants.
+Leaders at the top of al Qaeda's hierarchy, the evidence shows, completed plans and obtained the materials required to manufacture two biological toxins - botulinum and salmonella - and the chemical poison cyanide.
+The gravest risks from al Qaeda combine its affinity for big targets and its announced desire for weapons of mass destruction.
+Among all the upheavals of war with al Qaeda, the surest indicator of the historic stakes is the ongoing rotation of top U.S. government managers - scores at a time - into a bunker deep underground and far from Washington.
+Governors normally have jurisdiction over public health emergencies, but a widespread biological attack would cross state boundaries.
+First developed as a weapon by the U.S. Army, VX is an oily, odorless and tasteless liquid that kills on contact with the skin or when inhaled in aerosol form. Like other nerve agents, it is treatable in the first minutes after exposure but otherwise leads swiftly to fatal convulsions and respiratory failure.
+The United States, a signatory to the Chemical Weapons Convention, destroyed the last of its stocks of VX and other chemical agents on the Johnston Atoll, 825 miles southwest of Hawaii, in November 2000.
+The U.N. Security Council ordered Iraq in April 1991 to relinquish all capabilities to make biological, chemical and nuclear weapons as well as long-range missiles.
+During the morning rush hour on March 20, 1995, the Japanese cult Aum Shinrikyo placed packages on five subway trains converging on Tokyo's central station. When punctured, the packages spread vaporized Sarin through the subway cars and then into the stations as the trains pulled in.
+Smallpox, which spreads by respiration and kills roughly one in three of those infected, took hundreds of millions of lives during a recorded history dating to Pharaonic Egypt. The last case was in 1978, and the disease was declared eradicated on May 8, 1980.
+The U.S. government has known since the early 1990s about Soviet-era smallpox weapons, and collected circumstantial evidence of programs elsewhere.
+For political and bureaucratic reasons, governments at all levels are telling far less to the public than to insiders about how to prepare for and behave in the initial chaos of a mass-casualty event.
+Nearly all government advice on terrorism sacrifices practical particulars for an unalarming tone. The usual guidance is to maintain a three-day supply of food and water along with a radio, flashlight, batteries and first-aid kit.
+Unsettling signs of al Qaeda's aims and skills in cyberspace have led some government experts to conclude that terrorists are at the threshold of using the Internet as a direct instrument of bloodshed.
+Counterterrorism analysts have known for years that al Qaeda prepares for attacks with elaborate 'targeting packages' of photographs and notes.
+Ordinary Geiger counters, worn on belt clips and resembling pagers, have been in use by the U.S. Customs Service for years.
+Searches of al Qaeda sites in Afghanistan, undertaken since American-backed forces took control there, are not known to have turned up a significant cache of nuclear materials.
+There is evidence that some of al Qaeda's nuclear efforts over the years met with swindles and false leads.
+Al Qaeda is closely aligned with the Chechens.
+The government of Sudan, employing a back channel direct from its president to the Central Intelligence Agency, offered in the early spring of 1996 to arrest Osama bin Laden and place him in Saudi custody, according to officials and former officials in all three countries.
+Sudan expelled bin Laden on May 18, 1996, to Afghanistan.

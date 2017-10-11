@@ -1,0 +1,9 @@
+English,Scientist
+Surgical Anatomy is, to the student of medicine and surgery, the most essential branch of anatomical science, having reference more especially to an accurate knowledge of the more important regions, and consisting in the application of anatomy generally to the practice of surgery.
+The general framework of the body is built up mainly of a series of bones, supplemented, however, in certain regions by pieces of cartilage; the bony part of the framework constitutes the skeleton.
+Bone is one of the hardest structures of the animal body; it possesses also a certain degree of toughness and elasticity.
+The muscles are connected with the bones, cartilages, ligaments, and skin, either directly or through the intervention of fibrous structures called tendons or aponeuroses.
+In the dissection of the muscles, attention should be directed to the exact origin, insertion, and actions of each, and to its more important relations with surrounding parts.
+Descriptive Anatomy comprises a detailed account of the numerous organs of which the body is formed, especially with reference to their outward form, their internal structure, the mutual relations they bear to each other, and the successive conditions they present during their development.
+The appendages of the skin are the nails, the hairs, the sudoriferous and sebaceous glands, and their ducts. The nails and hairs are peculiar modifications of the epidermis, consisting essentially of the same cellular structure as that membrane.
+The eyeball is contained in the cavity of the orbit. In this situation, it is securely protected from injury, whilst its position is such as to ensure the most extensive range of sight.

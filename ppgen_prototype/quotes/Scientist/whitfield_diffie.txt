@@ -1,0 +1,27 @@
+American,Scientist
+Lots of people working in cryptography have no deep concern with real application issues. They are trying to discover things clever enough to write papers about.
+Without strong encryption, you will be spied on systematically by lots of people.
+Cloud computing means you are doing your computing on somebody else's computer. Looking ahead a little, I firmly believe cloud - previously called grid computing - will become very widespread. It's much cheaper than buying your own computing infrastructure, or maybe you don't have the power to do what you want on your own computer.
+We have experienced an utter explosion in investigative techniques. Walk the streets, look at the cameras! They are now recognising people automatically from photos; we have DNA fingerprinting, infrascan photos that can identify you from the veins in your face.
+One of the things that characterizes good intellectual work is a certain self-importance.
+I understood the importance in principle of public key cryptography but it's all moved much faster than I expected. I did not expect it to be a mainstay of advanced communications technology.
+People meet in bars after work all over the world and talk about the great problems of life and death and the world and politics and they don't take themselves seriously. They can do nothing else except chat about these things in bars after work.
+Cloud computing is a challenge to security, but one that can be overcome.
+If you have ambition, you might not achieve anything, but without ambition, you are almost certain not to achieve anything.
+Two people can work on a problem better than one.
+We in science are spoiled by the success of mathematics. Mathematics is the study of problems so simple that they have good solutions.
+I liked Berkeley tremendously, Berkeley was a very leftist campus. I came to love that city as much as I love Paris or the south of France or New York.
+Some people make sharp distinctions sort of between their recreational musings and their professional work. I don't make that distinction very much.
+I thought cryptography was a technique that did not require your trusting other people-that if you encrypted your files, you would have the control to make the choice as to whether you would surrender your files.
+I thought of computers as very low class. I thought of myself as a pure mathematician and was interested in partial differential equations and topology and things like that.
+I really believe in the radical viewpoint. And I have always believed that one's politics and the character of his particular work are inseparable.
+I guess, in a very real sense, I'm a Gnostic. I had been looking all my life for some great mystery... I think somewhere deep in my mind is the notion that if I could learn just the right thing, I would be saved.
+No right of private conversation was enumerated in the Constitution. I suppose it never occurred to anyone at the time that it could be prevented.
+If you are designing cryptosystems, you've got to think about long-term applications. You've got to try to figure out how to build something that is secure against technology in the next century that you cannot even imagine.
+I call up Amazon. It seems to me they do a major thing wrong, right. I mean, they protect me against the loss of a $50 liability I have of something on my credit card, but they do nothing to protect me against somebody who is watching to see what books I'm interested in, what new perversions I've developed.
+I certainly enjoy going on stage and lecturing and talking to Congress. That's a personality explanation. And given government proposals, I thought I had a clear view that they were antagonistic to human freedom.
+I was, from early on, interested in science. And my parents were very obliging about that. My father used to take me to the museum of natural history, and I knew much more scientific stuff early on. From the time I was 11 or 12, I wanted to be a mathematician.
+Intellectual work is essentially a lonely process, and if you can find a way of doing something so that you're in company without being disturbed, that, for me, is the critical thing. I often get to feel isolated so often if I'm sitting either where there aren't people or isn't a view.
+People constantly face problems they've never seen before, and they have to solve them somehow. So a million people come up with a million solutions that are just a little bit different. If computing is being done by fewer resources, there will be enormous security gains by pushing things into standard practices.
+In a sense, communications networks can be defined entirely by who has cryptographic keys, and I think a lot of networks will work that way in the future.
+I think that the people who are trying to shut down WikiLeaks are going to have to accept this as a fact of reality that cryptography allows you to do this kind of thing.

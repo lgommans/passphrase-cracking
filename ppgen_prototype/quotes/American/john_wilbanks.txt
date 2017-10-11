@@ -1,0 +1,4 @@
+American,Businessman
+Every scientist would like to be able to move through research faster, to spend less time and money acquiring material or disseminating it.
+No pharmaceutical company is making money by selling biological knowledge - they make money by selling chemicals. So getting as much of that knowledge as possible into the efficiency of the Web-commerce world is going to make it faster to find those chemicals.
+If a scientist is reading a paper online and clicks through to purchase material, there's value there. It might be a business model; it might be enough to defray the cost of open access. I just want to create the infrastructure that makes movement and sharing easier.

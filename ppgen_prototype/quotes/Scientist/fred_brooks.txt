@@ -1,0 +1,8 @@
+American,Scientist
+The fundamental problem with program maintenance is that fixing a defect has a substantial chance of introducing another.
+Adding manpower to a late software project makes it later.
+There is no single development, in either technology or management technique, which by itself promises even one order-of-magnitude improvement within a decade in productivity, in reliability, in simplicity.
+Good judgment comes from experience and experience comes from bad judgment.
+Systematically identity top designers as early as possible. The best are often not the most experienced.
+How does a project get to be a year late? One day at a time.
+How does a project get to be a year behind schedule? One day at a time.

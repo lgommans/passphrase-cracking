@@ -1,0 +1,27 @@
+American,Businessman
+The printed word will be around long after many of our digital creations are gone, either because books don't require monthly hosting, and blogs and websites do... or because the languages and platforms for which a particular digital creation was published will become obsolete.
+I like files. I like editing a CSS file without necessarily having to edit an HTML file. I like fixing a problem by replacing a corrupted file with a clean one. Maybe I'm set in my ways, but I don't consider it a hardship to open a folder or replace a file.
+On the traditional computer keyboard, I'm a super-fast touch typist. I mastered touch typing in high school.
+Marketing is not bragging, and touting one's wares is not evil. The baker in the medieval town square must holler, 'Fresh rolls!' if he hopes to feed the townfolk.
+Put simply, if an interface is poorly designed, I will not see the data I looked for, even if it is right there on the page.
+A good designer has technical knowledge - don't treat her like someone who's there to decide whether something should be pink or orange.
+There could be no filmmaking without industrywide agreement on frame rates, lenses, and audio recording equipment.
+Many thought it was a fool's errand - that the browser companies were never going to listen to us. Others argued that, 'Users don't care if you use Web standards.' Well, of course they don't. They just know that your site works better.
+I spent all day in front of a digital screen, but I'm about to curl up with a book.
+Amazon doesn't want to give Apple a cut of its media sales, so Apple won't let Amazon sell products in its apps.
+When we launched The Deck, I hoped other networks would take inspiration from it and figure out how to increase engagement while minimizing clutter. I even tried to sell my studio's media clients on the notion of fewer, better-priced, better-targeted ads.
+Advertisers don't want to be ignored, and they are drunk on our data, which is what Google and other large networks are really selling. The ads are almost a by-product; what companies really want to know is what antiperspirant a woman of 25-34 is most likely to purchase after watching 'House of Cards.'
+We at The Web Standards Project turned everything on its head. We said browsers should support the same standards instead of competing to invent new tags and scripting languages. We said designers, developers, and content folks should create one site that was accessible to everyone.
+The code core of the 2001 browser upgrade campaign was the first instance of capability detection in place of browser detection.
+The web's strength lies precisely in its unique position as the world's first universal platform.
+Somebody has to pay our editors, writers, journalists, designers, developers, and all the other specialists whose passion and tears go into every chunk of worthwhile web content.
+I know and have worked alongside some of the designers, developers, and editors at Vox Media; you'd be proud to work with any of them.
+Dropbox sweats the user experience details as commendably as it masters the considerable engineering challenges required to reliably sync files everywhere a user may need them.
+To my way of thinking, passive management of file assets is okay for screwing around with iPads, where we're mainly watching TV on Netflix or obsessive-compulsively checking the popularity of our Instagram uploads.
+Dropbox, with its emphasis on good old-fashioned hierarchies, is superb at automatically saving one original of each photo I take, whether shot with a phone or a fancy camera. No loops, no duplicates, no confusion.
+Business owners should think of designers as architects, not decorators.
+I'd like to be able to design as easily as if I was using Photoshop. I'd like to be able to create a multicolumn layout and control source order without having to do advanced mathematics or hire Eric Meyer or Dan Cederholm to figure out the CSS, because I can't.
+Validation is easy - you run your site through a validator, and it's either valid or it isn't. The rest of the stuff, such as whether my logo or the biggest headline should be the h1 in my HTML, isn't so easy and is subject to interpretation.
+I'm not against Flash, and I love the work that people such as Joshua Davis do.
+Even if it's not always the best markup, what are Facebook and Twitter? They're web standards with some scripts. They may not validate, but they're still CSS layouts and simple markup, and that's great!
+I wanted to be a writer and an artist. Learning to type as quickly as I could think was a needed skill and part of my long self-directed apprenticeship.

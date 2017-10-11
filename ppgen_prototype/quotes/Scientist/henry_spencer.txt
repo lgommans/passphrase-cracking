@@ -1,0 +1,27 @@
+Canadian,Scientist
+Progress requires setbacks; the only sure way to avoid failure is not to try.
+On the technical side, Apollo 8 was mainly a test flight for the Saturn V and the Apollo spacecraft. The main spacecraft system that needed testing on a real lunar flight was the onboard navigation system.
+Testing a parachute drop of a heavy object is not simple.
+Supplying fuel for a Mars expedition from the lunar surface is often suggested, but it's hard to make it pay off - Moon bases are expensive, and just buying more rockets to launch fuel from Earth is relatively cheap.
+Developing expendable rockets is always going to be painful and expensive. Throwing the whole rocket away on each attempt not only costs a lot, it also hampers figuring out just what went wrong because you don't get the rocket back for inspection.
+SpaceX does seem to have had a run of bad luck, with its first three launches all failing.
+In the long run, it's impossible to make progress without sometimes having setbacks, although people who get lucky on their first attempt sometimes forget this.
+Is manned space exploration important? Yes - not least because it simply works much better than sending robots.
+The demise of Constellation is not the death of a dream. It's just the end of an illusion.
+My one concern is that when money gets tight, it's easy to cut R&D funding that isn't tied to a specific project - look at what's happened to NASA's aviation research.
+Sure, there were hopes that Constellation's systems could later be adapted to support more ambitious goals. But Apollo had those hopes, too. It didn't work in 1970, and it wasn't going to work in 2020.
+The communications delays between Earth and Mars can be half an hour or more, so the people on the ground can't participate minute by minute in Mars surface activities.
+The Moon may not be quite as appealing as Mars, but it's still a complex and poorly understood world, with many questions still unanswered.
+In 1960-61, a small group of female pilots went through many of the same medical tests as the Mercury astronauts and scored very well on them - in fact, better than some of the astronauts did.
+NASA has never had a problem finding capable people to be astronauts. NASA's problem was, and still is, finding ways to cut the list of capable applicants down to a manageable length.
+Spaceflight, especially in the Mercury spacecraft, clearly wasn't going to be much like flying an airplane.
+Not until the space shuttle started flying did NASA concede that some astronauts didn't have to be fast-jet pilots. And at that point, sure enough, women started becoming astronauts.
+Since SpaceX's very beginnings, they have talked about recovering and reusing at least the first stages of their rockets.
+The Orion capsule uses an escape system quite like that of the Apollo spacecraft in the 1960s and 70s: an 'escape tower' containing a solid-fuel rocket that will pull it up and away from Ares I in a pinch.
+Solid-fuel rockets can't easily be shut down on command.
+Whether solid rockets are more or less likely to fail than liquid-fuel rockets is debatable. More serious, though, is that when they do fail, it's usually violent and spectacular.
+Past experience, on the shuttle and the Titan rockets, suggests that large multi-segment solid rockets have a probability of failure of 0.5 to 1 per cent.
+Sometimes people wonder why aeroplanes are so cheap and rockets are so expensive. Even the most superficial comparison shows one obvious difference: aeroplane engines use outside air to burn their fuel, while rockets have to carry their own oxidisers along.
+Liquid oxygen is one of the cheapest manufactured substances on Earth. In large quantities, it costs pennies per kilogram - cheaper than milk or beer.
+Rocket engines generally are simpler than jet engines, not more complicated.
+Trying to build a spaceship by making an aeroplane fly faster and higher is like trying to build an aeroplane by making locomotives faster and lighter - with a lot of effort, perhaps you could get something that more or less works, but it really isn't the right way to proceed.

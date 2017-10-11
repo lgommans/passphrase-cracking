@@ -1,0 +1,3 @@
+American,Inventor
+It doesn't use shading, but it does use stroke length variations.
+Diphthongs are indicated by combinations of hooks and circles.

@@ -1,0 +1,5 @@
+American,Businesswoman
+As our products have improved, and you add value at the high end, customers move to the high end.
+As the leadership team, we're taking bold and decisive action to evolve our organization and culture. This includes difficult steps, but they are necessary to position Microsoft for future growth and industry leadership.
+Each customer has unique deployment needs, and as a result, CIOs value the flexibility that our hybrid cloud offerings provide.
+In addition to transitioning to the cloud, our customers continue to invest in premium versions of our on-prem server products like Window Server, System Center and SQL Server.

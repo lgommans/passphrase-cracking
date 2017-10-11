@@ -1,0 +1,27 @@
+American,Businesswoman
+Many people think that open source projects are sort of chaotic and and anarchistic. They think that developers randomly throw code at the code base and see what sticks.
+We do care about control and privacy. It's one of the reasons we are so focused on having our systems be open source, so you or someone technically savvy you know can verify what the software is doing.
+We have a version of Firefox for mobile devices, codenamed Fennec. That's a type of fox - South American, I think, with giant ears.
+Money tends to make people suspicious, if there's any money floating around.
+I've learned that for many people, change is uncomfortable. Maybe they want to go through it, and they can see the benefit of it, but at a gut level, change is uncomfortable.
+I mean, who wants to live waking up... at least I don't want to live waking up everyday about revenge.
+The Mozilla Foundation is an independent, nonprofit organization.
+The organization is a way for people to find us and deal with us and know how we operate.
+The Mozilla project is big in terms of lines of code and complexity.
+We've broken the code base into logical chunks, called modules, and the foundation staff delegate authority for the modules to people with the most expertise.
+Some people are really drawn to technology and I liken them to artists.
+We actually have a real community of people doing useful things.
+People notice it and they help you participate and see your work included in this project and when we ship our browser, you and millions of other people get to see the fruits of your efforts.
+We've always been the development project that lived in a time pressured setting and always where commercial entities were relying heavily on releases in a certain time frame.
+We have a very active testing community which people don't often think about when you have open source.
+We worked very hard to make extensions very simple.
+But I think it's always difficult when a product that you're using and accustomed to changes.
+There's the classic charitable contribution, which we receive thousands, and we're extremely grateful and they often come with notes from people, which are very heartwarming, about how much difference our products have made in their life on the Internet.
+Of course, it's hard to support full-time programmers, so we do get funds from a set of companies that are interested in the health of the Mozilla project and so are willing to support the people working for the Foundation as well.
+Tech, in the sense of... putting things together, that goes back beyond memory for me.
+I'm a good communicator, and I'm a good translator. I can talk to engineers; I can talk to people for whom technology is not remotely interesting or even maybe scary - things like that.
+We will not build a society that reflects who we are and that has opportunities for equality or justice if we don't make progress for all participants.
+Mozilla has one foot in the Valley, Silicon Valley product technology, and partly one foot in the social enterprise space.
+IE6 was a bad experience for consumers, but it was a terrible for developers. Not only it was technically bad, but it was closed, and you couldn't do much with it.
+I think HTML5 is one area where Mozilla has done very poorly at actually communicating what we have done.
+The web as a platform is the most powerful platform we have ever seen.
