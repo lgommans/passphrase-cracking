@@ -9,75 +9,83 @@ gen_counter = 0
 
 def check_argument_validity():
     if len(sys.argv) == 1 or '-h' in sys.argv or '--help' in sys.argv: 
-        print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...')
-	print('Example usage:\tpypy ppgen.py ./pp_file.txt ./quotes/*/albert_einstein.txt ./quotes/Celebrity/*\n')        
+        print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...\n')
+	
+        print('Example usage:\tpypy ppgen.py ./to_crack.txt ./quotes/*/albert_einstein.txt ./quotes/Celebrity/*\n')
+        print('Example usage:\tpypy ppgen.py ./to_crack.txt ./lyrics/*/Anouk.txt ./lyrics/Metal/*\n')
 	sys.exit()
 
 
-def generate_passphrases(quotes):
-    for quote in quotes[1:]:
-        quote_sections = quote[:-1:].strip().replace('.', ',').split(',')
-
-        for section in quote_sections:
-            temp = section.split(' ')
-            to_permute_str = ' '.join(temp).strip()
-            to_permute = to_permute_str.split(' ')
-            split_up_sentence(to_permute)
+def start_generation_per_input_file():
+    for input_file in sys.argv[2:]:
+        split_lines = open(input_file).read().strip().split('\n')
+        generate_passphrases(split_lines)
+	print('generated everything for ' + str(input_file))
 
 
-def split_up_sentence(sentence_to_permute):
-    for length in range(len(sentence_to_permute)):
-        subsentence = sentence_to_permute[:(length + 1):]
-        subsentence_str = ' '.join(subsentence)
+def generate_passphrases(split_lines):
+    for line in split_lines:
+	while ',' in line or "'" in line or ':' in line or ';' in line:
+	    line = line.strip().replace(',','.').replace("'",'').replace(':','.').replace(';','.')
+        split_line = line.split('.')
+	
+	while '' in split_line: 
+	    split_line.remove('')
+	if len(split_line) == 0:
+	    continue
+	
+        for sentence in split_line:
+            get_all_substrings(sentence)
 
-        if 8 < len(subsentence_str) < 48:
-            permute_based_on_casing(subsentence)
+
+def get_all_substrings(sentence):
+    length = len(sentence)
+    if length <= 24:
+        for i in xrange(length):
+	    for j in xrange(i, length):
+	        substring = sentence[i:j+1:]
+	        joined_substring = ' '.join(substring)
+	    
+	        if 16 < len(joined_substring) < 48:
+                    permute_based_on_casing(substring)
 
 
-def permute_based_on_casing(state):
+def permute_based_on_casing(words_list):
     all_first_chars = ''
-    for word in state:
-        all_first_chars += word[0]
-    possible_casings = map(''.join, itertools.product(*((c.upper(), c.lower()) for c in all_first_chars)))
-
-    for casing_permutation in possible_casings:
-        case_permuted_subsentence = []
-        
-	for i in range(len(state)):
-            current_word = state[i]
-            
+    for word in words_list:
+	if len(word) != 0:
+            all_first_chars += word[0] 
+    
+    casing_permutations = map(''.join, itertools.product(*((c.upper(), c.lower()) for c in all_first_chars)))
+    for casing_permutation in casing_permutations:
+	case_permuted_words = []
+	
+	for i in xrange(len(words_list)):
+            current_word = words_list[i]
 	    if len(current_word) == 1:
                 cased_word = casing_permutation[i]
             else:
-                cased_word = casing_permutation[i] + state[i][1::]
-	    case_permuted_subsentence.append(cased_word)
+                cased_word = casing_permutation[i] + words_list[i][1::]
+	    case_permuted_words.append(cased_word)
 	
-	permute_based_on_spacing(case_permuted_subsentence)
+	permute_based_on_spacing(case_permuted_words)
 
 
-def permute_based_on_spacing(state):
-    no_whitespace = ''.join(state)
-    with_whitespace = ' '.join(state)
-    permute_special_chars(no_whitespace)
-    permute_special_chars(with_whitespace)    
-
-
-def permute_special_chars(state):
-    if "'" in state:
-    	alternative_state = state.replace("'", '')
-	cmp_phrase_with_input_phrases(alternative_state)
-    # add additional rules
-    cmp_phrase_with_input_phrases(state)       
-  
+def permute_based_on_spacing(words):
+    no_whitespace = ''.join(words)
+    with_whitespace = ' '.join(words)
+    cmp_phrase_with_input_phrases(no_whitespace)
+    cmp_phrase_with_input_phrases(with_whitespace)
  
-def cmp_phrase_with_input_phrases(state):
+
+def cmp_phrase_with_input_phrases(mutation_result):
     global gen_counter, phrases_to_crack 
     gen_counter += 1
-    if gen_counter % 250000 == 0:
+    if gen_counter % 10000000 == 0:
 	print('generated ' + str(gen_counter) + ' passphrases')
     
     for passphrase in phrases_to_crack:
-        if passphrase == state:
+        if passphrase == mutation_result:
             print('Passphrase cracked: ')
     	    print(passphrase + '\n')
 	    print('generated ' + str(gen_counter) + ' passphrases\n')
@@ -88,12 +96,9 @@ def cmp_phrase_with_input_phrases(state):
 
 check_argument_validity()
 phrases_to_crack = open(sys.argv[1]).read().strip().split('\n')
-
-for arg in sys.argv[2:]:
-    all_lines = open(arg).read().strip().split('\n')
-    metadata = all_lines[0]
-    generate_passphrases(all_lines)
-    print('generated everything for ' + arg)
-
+start_generation_per_input_file()
 print('generated ' + str(gen_counter) + ' passphrases')
 print('No success')
+
+
+
