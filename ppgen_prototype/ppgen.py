@@ -2,7 +2,8 @@ import itertools
 import sys
 from base64 import b64decode
 import time
-from pylev import levenshtein
+import pylev
+# from pylev import levenshtein
 import os.path
 
 
@@ -57,6 +58,9 @@ def generate_all_substrings(sentence):
 
                 if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     permute_based_on_casing(substring)
+                    for passphrase in phrases_to_crack:
+                        check_lev_distance("".join(substring), passphrase)
+
 
 
 def permute_based_on_casing(words_list):
@@ -102,11 +106,11 @@ def check_results(mutation_result):
             if phrases_cracked == len(phrases_to_crack):
                 print('Done!')
                 sys.exit(0)
-        check_lev_distance(mutation_result, passphrase)
+
 
 
 def check_lev_distance(mutation_result, passphrase):
-    lev_distance = levenshtein(passphrase, mutation_result)
+    lev_distance = pylev.wfi_levenshtein(passphrase, mutation_result)
     if lev_distance < smallest_lev_distances[passphrase]:
         smallest_lev_distances[passphrase] = lev_distance
         closest_mutations[passphrase] = mutation_result
