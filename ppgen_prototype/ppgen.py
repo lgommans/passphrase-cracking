@@ -1,5 +1,8 @@
 import itertools
 import sys
+from base64 import b64decode
+import time
+from pylev import levenshtein
 
 
 # FUNCTIONS
@@ -72,33 +75,54 @@ def permute_based_on_spacing(words):
 
 
 def check_results(mutation_result):
-    global gen_counter, phrases_to_crack
+    global gen_counter, phrases_cracked
     gen_counter += 1
-    if gen_counter % 2500000 == 0:
-        print('generated ' + str(gen_counter) + ' passphrases')
+    if gen_counter % 1e5 == 0:
+        print('generated ' + str(gen_counter/1e6) + 'm passphrases')
+        print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
+        for index, passphrase in enumerate(minlev):
+            print('Minimum for passphrase {} had a distance of {} with: "{}"'.format(index, minlev[passphrase], best[passphrase]))
 
     for passphrase in phrases_to_crack:
         if mutation_result == passphrase:
             print('\nPassphrase cracked: ')
             print(mutation_result + '\n')
-            print('generated ' + str(gen_counter) + ' passphrases\n')
-            sys.exit()
+            print('generated ' + str(gen_counter/1e6) + 'm passphrases\n')
+            phrases_cracked += 1
+            if phrases_cracked == len(phrases_to_crack):
+                print('Done!')
+                sys.exit(0)
+
+        distance = levenshtein(passphrase, mutation_result)
+        if distance < minlev[passphrase]:
+            minlev[passphrase] = distance
+            best[passphrase] = mutation_result
 
 
 # PROGRAM
 
+phrases_cracked = 0
+minlev = {}
+best = {}
+starttime = time.time()
 gen_counter = 0
 check_argument_validity()
-phrases_to_crack = open(sys.argv[1]).read().strip().split('\n')
+phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
+phrases_to_crack = []
+for b in phrases_to_crack_b64:
+    x = b64decode(b)
+    if b.strip() == '' or x.strip() == '':
+        continue
+    phrases_to_crack.append(x)
+    minlev[x] = 1e9
+    best[x] = ''
 
 try:
     start_generation_per_input_file()
 except KeyboardInterrupt:
     print('\nppgen: received KeyboardInterrupt')
     print('generated ' + str(gen_counter) + ' passphrases\n')
-    sys.exit()
-print('generated ' + str(gen_counter) + ' passphrases')
-print('No success')
-
-
+else:
+    print('generated ' + str(gen_counter) + ' passphrases')
+    print('No success')
 
