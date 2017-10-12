@@ -1,59 +1,26 @@
 import itertools
 import sys
-from base64 import b64decode
 import time
-from pylev import levenshtein
 import os.path
-
-def file_len(filename):
-    with open(filename) as f:
-        for i, l in enumerate(f):
-            pass
-    return i + 1
-
-
-#    Search for number in array
-def binary_search(low, high):
-    if high < low:
-        return -1  # no more numbers
-    mid = (low + high) // 2  # midpoint in array
-    print(high)
-    # print(mid)
-    # print(low)
-    # print(input_hash)
-    # print(all_hashes[mid])
-    # print('')
-    if input_hash == all_hashes[mid]:
-        return mid  # number found here
-    elif input_hash < all_hashes[mid]:
-        return binary_search(low, mid - 1)  # try left of here
-    else:
-        return binary_search(mid + 1, high)  # try above here
-
-
-all_hashes = sorted(open('/sne/home/dgaastra/Documents/SSN/project/combo_not.txt').read().strip().splitlines())
-test_hashes = open('/sne/home/dgaastra/Documents/SSN/project/test_hashes.txt').read().strip().splitlines()
-
-all_hashes_length = len(all_hashes)
-test_hashes_length = len(test_hashes)
-total_successes = 0
-
-for test_hash in test_hashes:
-    input_hash = test_hash
-    if binary_search(0, all_hashes_length - 1) != -1:
-        total_successes += 1
-
-if total_successes == test_hashes_length:
-    print('Success')
-
-
-
-
-
+import hashlib
 
 
 # FUNCTIONS
 
+
+def binary_search(input_hash, low, high):
+    if high < low:
+        return -1  # no more numbers
+    mid = (low + high) // 2  # midpoint in array
+    if input_hash == input_hashes[mid]:
+        return mid  # number found here
+    elif input_hash < input_hashes[mid]:
+        return binary_search(input_hash, low, mid - 1)  # try left of here
+    else:
+        return binary_search(input_hash, mid + 1, high)  # try above here
+
+
+# old as fuck
 def check_argument_validity():
     if len(sys.argv) == 1 or '-h' in sys.argv or '--help' in sys.argv:
         print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...\n')
@@ -132,33 +99,24 @@ def permute_based_on_spacing(words):
 def check_results(mutation_result):
     global gen_counter, phrases_cracked
     gen_counter += 1
-
-    if gen_counter % 250000 == 0:
-        print('Generated ' + str(gen_counter / 1e6) + 'm passphrases')
+    if gen_counter % 1e7 == 0:
+        print('Generated ' + str(gen_counter / 1e7) + 'm passphrases')
         print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
-        for index, passphrase in enumerate(smallest_lev_distances):
-            print('Minimum for passphrase {} had a distance of {} with: "{}"'.
-                  format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
 
-    for passphrase in phrases_to_crack:
-        if mutation_result == passphrase:
-            print('\nPassphrase cracked: ' + mutation_result + '\n')
-            print('Generated ' + str(gen_counter / 1e6) + 'm passphrases\n')
-            phrases_cracked += 1
-            if phrases_cracked == len(phrases_to_crack):
-                print('Done!')
-                sys.exit(0)
-        check_lev_distance(mutation_result, passphrase)
-
-
-def check_lev_distance(mutation_result, passphrase):
-    lev_distance = levenshtein(passphrase, mutation_result)
-    if lev_distance < smallest_lev_distances[passphrase]:
-        smallest_lev_distances[passphrase] = lev_distance
-        closest_mutations[passphrase] = mutation_result
+    hashed_mutation_result = hashlib.sha1(mutation_result.encode()).hexdigest()
+    search_result = binary_search(hashed_mutation_result, 0, input_hashes_length - 1)
+    if search_result != -1:
+        print('\n|Passphrase cracked| \n')
+        print('Passphrase: ' + mutation_result)
+        print('Hash: ' + hashed_mutation_result + '\n')
+        phrases_cracked += 1
+        if phrases_cracked == input_hashes_length:
+            print('Done!')
+            sys.exit(0)
 
 
 # PROGRAM
+# RUN AS: pypy linkedincrack.py <hashes> ./lyrics/* ./quotes/*
 
 gen_counter = 0
 phrases_cracked = 0
@@ -167,16 +125,8 @@ closest_mutations = {}
 starttime = time.time()
 
 check_argument_validity()
-phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
-
-phrases_to_crack = []
-for encoded_pp in phrases_to_crack_b64:
-    decoded_pp = b64decode(encoded_pp)
-    if encoded_pp.strip() == '' or decoded_pp.strip() == '':
-        continue
-    phrases_to_crack.append(decoded_pp)
-    smallest_lev_distances[decoded_pp] = sys.maxint
-    closest_mutations[decoded_pp] = ''
+input_hashes = sorted(open(sys.argv[1]).read().strip().splitlines())
+input_hashes_length = len(input_hashes)
 
 try:
     start_generation_per_seed_file()
@@ -185,7 +135,4 @@ except KeyboardInterrupt:
     print('generated ' + str(gen_counter) + ' passphrases\n')
 else:
     print('generated ' + str(gen_counter) + ' passphrases')
-    for index, passphrase in enumerate(smallest_lev_distances):
-        print('Minimum for passphrase {} had a distance of {} with: "{}"'.
-              format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
     print('No success')
