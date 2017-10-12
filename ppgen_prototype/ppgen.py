@@ -22,7 +22,9 @@ def check_argument_validity():
 
 
 def start_generation_per_seed_file():
+    global starttime
     processed_files = []
+    starttime = time.time()
     for file_path in sys.argv[2:]:
         if file_path not in processed_files:
             split_lines = open(file_path).read().strip().split('\n')
@@ -59,7 +61,7 @@ def generate_all_substrings(sentence):
                 if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     permute_based_on_casing(substring)
                     for passphrase in phrases_to_crack:
-                        check_lev_distance("".join(substring), passphrase)
+                        check_lev_distance("".join(substring), passphrase.replace(' ', ''))
 
 
 
@@ -86,9 +88,10 @@ def check_results(mutation_result):
     if gen_counter % 250000 == 0:
         print('Generated ' + str(gen_counter / 1e6) + 'm passphrases')
         print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
+        sys.stdout.flush()
         for index, passphrase in enumerate(smallest_lev_distances):
             print('Minimum for passphrase {} had a distance of {} with: "{}"'.
-                  format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
+                  format(index + 1, smallest_lev_distances[passphrase.replace(' ', '')], closest_mutations[passphrase]))
 
     for passphrase in phrases_to_crack:
         if mutation_result == passphrase:
@@ -97,15 +100,15 @@ def check_results(mutation_result):
             phrases_cracked += 1
             if phrases_cracked == len(phrases_to_crack):
                 print('Done!')
-                sys.exit(0)
+                raise Exception(":)")
 
 
 
 def check_lev_distance(mutation_result, passphrase):
     lev_distance = pylev.wfi_levenshtein(passphrase, mutation_result)
     if lev_distance < smallest_lev_distances[passphrase]:
-        smallest_lev_distances[passphrase] = lev_distance
-        closest_mutations[passphrase] = mutation_result
+        smallest_lev_distances[passphrase.replace(' ', '')] = lev_distance
+        closest_mutations[passphrase.replace(' ', '')] = mutation_result
 
 
 # PROGRAM
@@ -114,7 +117,6 @@ gen_counter = 0
 phrases_cracked = 0
 smallest_lev_distances = {}
 closest_mutations = {}
-starttime = time.time()
 
 check_argument_validity()
 phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
@@ -125,18 +127,22 @@ for encoded_pp in phrases_to_crack_b64:
     if encoded_pp.strip() == '' or decoded_pp.strip() == '':
         continue
     phrases_to_crack.append(decoded_pp)
-    smallest_lev_distances[decoded_pp] = sys.maxint
-    closest_mutations[decoded_pp] = ''
+    smallest_lev_distances[decoded_pp.replace(' ', '')] = sys.maxint
+    closest_mutations[decoded_pp.replace(' ', '')] = ''
 
 try:
     start_generation_per_seed_file()
 except KeyboardInterrupt:
     print('\nppgen: received KeyboardInterrupt')
     print('generated ' + str(gen_counter) + ' passphrases\n')
+except Exception as e:
+    if e.args[0] != ':)':
+        raise e
 else:
     print('generated ' + str(gen_counter) + ' passphrases')
     for index, passphrase in enumerate(smallest_lev_distances):
         print('Minimum for passphrase {} had a distance of {} with: "{}"'.
               format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
-    print('{}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
     print('No success')
+
+print('{}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
