@@ -21,7 +21,7 @@ def check_argument_validity():
             print('\nOne of the specified files does not exist.')
 
 
-def start_generation_per_input_file():
+def start_generation_per_seed_file():
     processed_files = []
     for file_path in sys.argv[2:]:
         if file_path not in processed_files:
@@ -71,20 +71,12 @@ def permute_based_on_casing(words_list):
     casing_permutations = map(''.join, itertools.product(*((c.upper(), c.lower()) for c in all_first_chars)))
 
     for casing_permutation in casing_permutations:
-        case_permuted_words = []
+        case_permuted_word = ''
         for i in range(len(words_list)):
-            current_word = words_list[i]
-            cased_word = casing_permutation[i] + current_word[1:]
-            case_permuted_words.append(cased_word)
+            case_permuted_word += ' ' + casing_permutation[i] + words_list[i][1:]
 
-        permute_based_on_spacing(case_permuted_words)
-
-
-def permute_based_on_spacing(words):
-    no_whitespace = ''.join(words)
-    with_whitespace = ' '.join(words)
-    check_results(no_whitespace)
-    check_results(with_whitespace)
+        check_results(case_permuted_word[1:])
+        check_results(case_permuted_word.replace(' ', ''))
 
 
 def check_results(mutation_result):
@@ -125,8 +117,8 @@ closest_mutations = {}
 starttime = time.time()
 
 check_argument_validity()
-
 phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
+
 phrases_to_crack = []
 for encoded_pp in phrases_to_crack_b64:
     decoded_pp = b64decode(encoded_pp)
@@ -137,10 +129,14 @@ for encoded_pp in phrases_to_crack_b64:
     closest_mutations[decoded_pp] = ''
 
 try:
-    start_generation_per_input_file()
+    start_generation_per_seed_file()
 except KeyboardInterrupt:
     print('\nppgen: received KeyboardInterrupt')
     print('generated ' + str(gen_counter) + ' passphrases\n')
 else:
     print('generated ' + str(gen_counter) + ' passphrases')
+    for index, passphrase in enumerate(smallest_lev_distances):
+        print('Minimum for passphrase {} had a distance of {} with: "{}"'.
+              format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
+    print('{}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
     print('No success')
