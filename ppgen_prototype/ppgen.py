@@ -20,7 +20,7 @@ def check_argument_validity():
             print('\nOne of the specified files does not exist.')
 
 
-def start_generation_per_input_file():
+def start_generation_per_seed_file():
     processed_files = []
     for file_path in sys.argv[2:]:
         if file_path not in processed_files:
@@ -121,8 +121,8 @@ closest_mutations = {}
 starttime = time.time()
 
 check_argument_validity()
-
 phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
+
 phrases_to_crack = []
 for encoded_pp in phrases_to_crack_b64:
     decoded_pp = b64decode(encoded_pp)
@@ -133,10 +133,13 @@ for encoded_pp in phrases_to_crack_b64:
     closest_mutations[decoded_pp] = ''
 
 try:
-    start_generation_per_input_file()
+    start_generation_per_seed_file()
 except KeyboardInterrupt:
     print('\nppgen: received KeyboardInterrupt')
     print('generated ' + str(gen_counter) + ' passphrases\n')
 else:
     print('generated ' + str(gen_counter) + ' passphrases')
+    for index, passphrase in enumerate(smallest_lev_distances):
+        print('Minimum for passphrase {} had a distance of {} with: "{}"'.
+              format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
     print('No success')
