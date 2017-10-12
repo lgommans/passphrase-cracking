@@ -9,31 +9,18 @@ import os.path
 
 # FUNCTIONS
 
-def check_argument_validity():
-    if len(sys.argv) == 1 or '-h' in sys.argv or '--help' in sys.argv:
-        print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...\n')
-
-        print('Example usage:\tpypy ppgen.py ./to_crack.txt ./quotes/*/albert_einstein.txt ./quotes/Aviator/*')
-        print('Example usage:\tpypy ppgen.py ./to_crack.txt ./lyrics/*/Anouk.txt ./lyrics/Metal/*\n')
-        sys.exit()
-    for file_path in sys.argv[2:]:
-        if not os.path.isfile(file_path):
-            print('\nOne of the specified files does not exist.')
-
 
 def start_generation_per_seed_file():
     global starttime
     processed_files = []
     starttime = time.time()
-    for file_path in sys.argv[2:]:
-        if file_path not in processed_files:
-            split_lines = open(file_path).read().strip().split('\n')
-            print('\ngenerating passphrases with ' + str(file_path))
-            generate_passphrases(split_lines)
-            print('generated everything for ' + str(file_path))
-            processed_files.append(file_path)
-        else:
-            continue
+    split_lines = open(sys.argv[1]).read().strip().split('\n')
+    if not fast:
+        print('\ngenerating passphrases with ' + str(sys.argv[1]))
+    generate_passphrases(split_lines)
+    if not fast:
+        print('generated everything for ' + str(sys.argv[1]))
+    processed_files.append(sys.argv[1])
 
 
 def generate_passphrases(split_lines):
@@ -61,8 +48,9 @@ def generate_all_substrings(sentence):
 
                 if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     total += 2 * (2**len(substring))
+                    if fast:
+                        return
                     permute_based_on_casing(substring)
-
 
 
 def permute_based_on_casing(words_list):
@@ -105,19 +93,12 @@ phrases_cracked = 0
 smallest_lev_distances = {}
 closest_mutations = {}
 
-check_argument_validity()
-phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
-
-phrases_to_crack = []
-for encoded_pp in phrases_to_crack_b64:
-    decoded_pp = b64decode(encoded_pp)
-    if encoded_pp.strip() == '' or decoded_pp.strip() == '':
-        continue
-    phrases_to_crack.append(decoded_pp)
-    smallest_lev_distances[decoded_pp.replace(' ', '')] = sys.maxint
-    closest_mutations[decoded_pp.replace(' ', '')] = ''
-
 total = 0
+
+if '-f' in sys.argv:
+    fast = True
+else:
+    fast = False
 
 try:
     start_generation_per_seed_file()
@@ -130,9 +111,11 @@ except Exception as e:
     if e.args[0] != ':)':
         raise e
 else:
-    print('\ngenerated ' + str(gen_counter) + ' passphrases')
+    if not fast:
+        print('\ngenerated ' + str(gen_counter) + ' passphrases')
 
-sys.stderr.write('Total for {}: {}\n'.format(sys.argv[2], total))
+print('Total for {}: {}'.format(sys.argv[1], total))
 
-print('did {}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
+if not fast:
+    print('did {}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
 
