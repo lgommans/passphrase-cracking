@@ -1,0 +1,16 @@
+
+generating passphrases with ./quotes/Actor/samuel_l_jackson.txt
+Generated 1.0m passphrases
+1.234m/s
+Minimum for passphrase 1 had a distance of 15 with: "thatIcaninfusewith"
+Generated 2.0m passphrases
+1.442m/s
+Minimum for passphrase 1 had a distance of 15 with: "thatIcaninfusewith"
+Generated 3.0m passphrases
+1.528m/s
+Minimum for passphrase 1 had a distance of 14 with: "wasanabsenteedad"
+generated everything for ./quotes/Actor/samuel_l_jackson.txt
+generated 3165592 passphrases
+Minimum for passphrase 1 had a distance of 14 with: "wasanabsenteedad"
+No success
+1.53320955081m/s

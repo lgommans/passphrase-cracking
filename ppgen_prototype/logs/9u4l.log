@@ -1,0 +1,31 @@
+
+generating passphrases with ./quotes/Novelist/fyodor_dostoevsky.txt
+Generated 1.0m passphrases
+1.357m/s
+Minimum for passphrase 1 had a distance of 14 with: "istoknowthesource"
+generated everything for ./quotes/Novelist/fyodor_dostoevsky.txt
+
+generating passphrases with ./quotes/Russian/fyodor_dostoevsky.txt
+Generated 2.0m passphrases
+1.516m/s
+Minimum for passphrase 1 had a distance of 14 with: "istoknowthesource"
+generated everything for ./quotes/Russian/fyodor_dostoevsky.txt
+
+generating passphrases with ./lyrics/Other/The_Internet.txt
+Generated 3.0m passphrases
+1.581m/s
+Minimum for passphrase 1 had a distance of 14 with: "istoknowthesource"
+Generated 4.0m passphrases
+1.632m/s
+Minimum for passphrase 1 had a distance of 13 with: "itiswedoingonthisearth"
+Generated 5.0m passphrases
+1.666m/s
+Minimum for passphrase 1 had a distance of 13 with: "itiswedoingonthisearth"
+Generated 6.0m passphrases
+1.698m/s
+Minimum for passphrase 1 had a distance of 13 with: "itiswedoingonthisearth"
+generated everything for ./lyrics/Other/The_Internet.txt
+generated 6141400 passphrases
+Minimum for passphrase 1 had a distance of 13 with: "itiswedoingonthisearth"
+No success
+1.69935897159m/s

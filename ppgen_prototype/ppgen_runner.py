@@ -9,6 +9,9 @@ dev_null = open(os.devnull, 'w')
 surveys = open(sys.argv[1]).read().strip().split('=====')
 popen_counter = 0
 
+total_surveys = len(surveys)
+print('Running a total of ' + str(total_surveys) + ' survey entries.')
+
 for survey in surveys:
     survey_lines = survey.strip().split('\n')
     survey_id = survey_lines[0].strip()
@@ -30,4 +33,6 @@ for survey in surveys:
             break
         else:
             time.sleep(5)
+
+print('Started all processes')
 

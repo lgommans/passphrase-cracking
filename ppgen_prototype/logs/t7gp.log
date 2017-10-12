@@ -1,0 +1,661 @@
+
+generating passphrases with ./quotes/American/neal_stephenson.txt
+generated everything for ./quotes/American/neal_stephenson.txt
+
+generating passphrases with ./quotes/Writer/neal_stephenson.txt
+generated everything for ./quotes/Writer/neal_stephenson.txt
+
+generating passphrases with ./quotes/British/charles_stross.txt
+Generated 1.0m passphrases
+1.202m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 2.0m passphrases
+1.406m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+generated everything for ./quotes/British/charles_stross.txt
+
+generating passphrases with ./quotes/Writer/charles_stross.txt
+Generated 3.0m passphrases
+1.491m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+generated everything for ./quotes/Writer/charles_stross.txt
+
+generating passphrases with ./quotes/British/jane_austen.txt
+Generated 4.0m passphrases
+1.541m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 5.0m passphrases
+1.586m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 6.0m passphrases
+1.659m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 7.0m passphrases
+1.718m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 8.0m passphrases
+1.77m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+generated everything for ./quotes/British/jane_austen.txt
+
+generating passphrases with ./quotes/Writer/jane_austen.txt
+Generated 9.0m passphrases
+1.813m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 10.0m passphrases
+1.847m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 11.0m passphrases
+1.875m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 12.0m passphrases
+1.897m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+generated everything for ./quotes/Writer/jane_austen.txt
+
+generating passphrases with ./quotes/Author/j_k_rowling.txt
+Generated 13.0m passphrases
+1.897m/s
+Minimum for passphrase 1 had a distance of 20 with: "isthatthelatterknowmore"
+Generated 14.0m passphrases
+1.894m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 15.0m passphrases
+1.895m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 16.0m passphrases
+1.885m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 17.0m passphrases
+1.876m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 18.0m passphrases
+1.858m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 19.0m passphrases
+1.856m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Author/j_k_rowling.txt
+
+generating passphrases with ./quotes/English/j_k_rowling.txt
+Generated 20.0m passphrases
+1.853m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 21.0m passphrases
+1.854m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 22.0m passphrases
+1.848m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 23.0m passphrases
+1.835m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 24.0m passphrases
+1.834m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 25.0m passphrases
+1.824m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/English/j_k_rowling.txt
+
+generating passphrases with ./quotes/Author/terry_pratchett.txt
+Generated 26.0m passphrases
+1.806m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 27.0m passphrases
+1.788m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 28.0m passphrases
+1.776m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 29.0m passphrases
+1.775m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 30.0m passphrases
+1.769m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 31.0m passphrases
+1.762m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 32.0m passphrases
+1.754m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 33.0m passphrases
+1.748m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 34.0m passphrases
+1.735m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 35.0m passphrases
+1.717m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 36.0m passphrases
+1.713m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Author/terry_pratchett.txt
+
+generating passphrases with ./quotes/English/terry_pratchett.txt
+Generated 37.0m passphrases
+1.705m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 38.0m passphrases
+1.7m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 39.0m passphrases
+1.685m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 40.0m passphrases
+1.671m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 41.0m passphrases
+1.667m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 42.0m passphrases
+1.664m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 43.0m passphrases
+1.662m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 44.0m passphrases
+1.659m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 45.0m passphrases
+1.655m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 46.0m passphrases
+1.648m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 47.0m passphrases
+1.641m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 48.0m passphrases
+1.635m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/English/terry_pratchett.txt
+
+generating passphrases with ./quotes/American/andy_weir.txt
+Generated 49.0m passphrases
+1.631m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/andy_weir.txt
+
+generating passphrases with ./quotes/Novelist/andy_weir.txt
+Generated 50.0m passphrases
+1.628m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Novelist/andy_weir.txt
+
+generating passphrases with ./quotes/American/george_r_r_martin.txt
+Generated 51.0m passphrases
+1.626m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 52.0m passphrases
+1.622m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 53.0m passphrases
+1.618m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 54.0m passphrases
+1.61m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 55.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 56.0m passphrases
+1.6m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/george_r_r_martin.txt
+
+generating passphrases with ./quotes/Author/george_r_r_martin.txt
+Generated 57.0m passphrases
+1.601m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 58.0m passphrases
+1.601m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 59.0m passphrases
+1.603m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 60.0m passphrases
+1.605m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 61.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 62.0m passphrases
+1.612m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Author/george_r_r_martin.txt
+
+generating passphrases with ./quotes/American/ted_chiang.txt
+generated everything for ./quotes/American/ted_chiang.txt
+
+generating passphrases with ./quotes/Writer/ted_chiang.txt
+generated everything for ./quotes/Writer/ted_chiang.txt
+
+generating passphrases with ./quotes/American/ray_bradbury.txt
+Generated 63.0m passphrases
+1.612m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 64.0m passphrases
+1.61m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 65.0m passphrases
+1.605m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 66.0m passphrases
+1.607m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 67.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/ray_bradbury.txt
+
+generating passphrases with ./quotes/Writer/ray_bradbury.txt
+Generated 68.0m passphrases
+1.609m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 69.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 70.0m passphrases
+1.606m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 71.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 72.0m passphrases
+1.609m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Writer/ray_bradbury.txt
+
+generating passphrases with ./quotes/American/patrick_rothfuss.txt
+Generated 73.0m passphrases
+1.611m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 74.0m passphrases
+1.614m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/patrick_rothfuss.txt
+
+generating passphrases with ./quotes/Writer/patrick_rothfuss.txt
+Generated 75.0m passphrases
+1.616m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 76.0m passphrases
+1.617m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Writer/patrick_rothfuss.txt
+
+generating passphrases with ./quotes/American/dan_simmons.txt
+Generated 77.0m passphrases
+1.615m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/dan_simmons.txt
+
+generating passphrases with ./quotes/Author/dan_simmons.txt
+generated everything for ./quotes/Author/dan_simmons.txt
+
+generating passphrases with ./quotes/American/frank_herbert.txt
+Generated 78.0m passphrases
+1.611m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 79.0m passphrases
+1.607m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/American/frank_herbert.txt
+
+generating passphrases with ./quotes/Writer/frank_herbert.txt
+Generated 80.0m passphrases
+1.604m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 81.0m passphrases
+1.605m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Writer/frank_herbert.txt
+
+generating passphrases with ./quotes/English/douglas_adams.txt
+Generated 82.0m passphrases
+1.606m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 83.0m passphrases
+1.605m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 84.0m passphrases
+1.606m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 85.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/English/douglas_adams.txt
+
+generating passphrases with ./quotes/Writer/douglas_adams.txt
+Generated 86.0m passphrases
+1.603m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 87.0m passphrases
+1.605m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 88.0m passphrases
+1.608m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 89.0m passphrases
+1.61m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 90.0m passphrases
+1.613m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Writer/douglas_adams.txt
+
+generating passphrases with ./quotes/Polish/stanislaw_lem.txt
+generated everything for ./quotes/Polish/stanislaw_lem.txt
+
+generating passphrases with ./quotes/Writer/stanislaw_lem.txt
+generated everything for ./quotes/Writer/stanislaw_lem.txt
+
+generating passphrases with ./quotes/Author/neil_gaiman.txt
+Generated 91.0m passphrases
+1.615m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 92.0m passphrases
+1.617m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 93.0m passphrases
+1.619m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 94.0m passphrases
+1.62m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 95.0m passphrases
+1.622m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 96.0m passphrases
+1.622m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 97.0m passphrases
+1.624m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 98.0m passphrases
+1.627m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/Author/neil_gaiman.txt
+
+generating passphrases with ./quotes/British/neil_gaiman.txt
+Generated 99.0m passphrases
+1.629m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 100.0m passphrases
+1.631m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 101.0m passphrases
+1.632m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 102.0m passphrases
+1.633m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 103.0m passphrases
+1.635m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 104.0m passphrases
+1.636m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 105.0m passphrases
+1.637m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 106.0m passphrases
+1.636m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./quotes/British/neil_gaiman.txt
+
+generating passphrases with ./lyrics/Other/Burzum.txt
+Generated 107.0m passphrases
+1.634m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./lyrics/Other/Burzum.txt
+
+generating passphrases with ./lyrics/Other/Venetian_Snares.txt
+Generated 108.0m passphrases
+1.631m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 109.0m passphrases
+1.628m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 110.0m passphrases
+1.625m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 111.0m passphrases
+1.622m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 112.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 113.0m passphrases
+1.623m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./lyrics/Other/Venetian_Snares.txt
+
+generating passphrases with ./lyrics/Metal/Rob_Zombie.txt
+Generated 114.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 115.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 116.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 117.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 118.0m passphrases
+1.62m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 119.0m passphrases
+1.619m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 120.0m passphrases
+1.618m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 121.0m passphrases
+1.617m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./lyrics/Metal/Rob_Zombie.txt
+
+generating passphrases with ./lyrics/Metal/KoRn.txt
+Generated 122.0m passphrases
+1.617m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 123.0m passphrases
+1.617m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 124.0m passphrases
+1.618m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 125.0m passphrases
+1.619m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 126.0m passphrases
+1.619m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 127.0m passphrases
+1.619m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 128.0m passphrases
+1.621m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 129.0m passphrases
+1.625m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 130.0m passphrases
+1.628m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 131.0m passphrases
+1.631m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 132.0m passphrases
+1.634m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 133.0m passphrases
+1.639m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 134.0m passphrases
+1.642m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 135.0m passphrases
+1.646m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 136.0m passphrases
+1.649m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 137.0m passphrases
+1.65m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 138.0m passphrases
+1.651m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 139.0m passphrases
+1.652m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 140.0m passphrases
+1.653m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 141.0m passphrases
+1.654m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 142.0m passphrases
+1.655m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 143.0m passphrases
+1.656m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 144.0m passphrases
+1.657m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 145.0m passphrases
+1.658m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 146.0m passphrases
+1.659m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 147.0m passphrases
+1.66m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 148.0m passphrases
+1.661m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 149.0m passphrases
+1.662m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 150.0m passphrases
+1.662m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 151.0m passphrases
+1.663m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 152.0m passphrases
+1.663m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 153.0m passphrases
+1.664m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 154.0m passphrases
+1.665m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 155.0m passphrases
+1.666m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 156.0m passphrases
+1.667m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 157.0m passphrases
+1.668m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 158.0m passphrases
+1.669m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 159.0m passphrases
+1.67m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 160.0m passphrases
+1.671m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 161.0m passphrases
+1.671m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 162.0m passphrases
+1.672m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 163.0m passphrases
+1.671m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 164.0m passphrases
+1.669m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 165.0m passphrases
+1.667m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 166.0m passphrases
+1.665m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 167.0m passphrases
+1.663m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 168.0m passphrases
+1.664m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 169.0m passphrases
+1.665m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 170.0m passphrases
+1.665m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 171.0m passphrases
+1.666m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 172.0m passphrases
+1.666m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 173.0m passphrases
+1.668m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 174.0m passphrases
+1.668m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 175.0m passphrases
+1.669m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 176.0m passphrases
+1.67m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 177.0m passphrases
+1.67m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 178.0m passphrases
+1.671m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 179.0m passphrases
+1.672m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 180.0m passphrases
+1.673m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 181.0m passphrases
+1.675m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 182.0m passphrases
+1.678m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 183.0m passphrases
+1.68m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 184.0m passphrases
+1.682m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+Generated 185.0m passphrases
+1.684m/s
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+generated everything for ./lyrics/Metal/KoRn.txt
+generated 185465784 passphrases
+Minimum for passphrase 1 had a distance of 18 with: "failuremeantastripping"
+No success
+1.68446656561m/s
