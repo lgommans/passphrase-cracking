@@ -1,14 +1,16 @@
-from base64 import b64decode
 import itertools
 import sys
+from base64 import b64decode
 import time
-import pylev
+from pylev import levenshtein
 import os.path
+import os
 
 
 # FUNCTIONS
 
-def check_argument_validity():  # is old
+# needs to be changed
+def check_argument_validity():
     if len(sys.argv) == 1 or '-h' in sys.argv or '--help' in sys.argv:
         print('\nUsage:\t\tpypy ppgen.py <passphrases_to_crack> <seed1> <seed2> ...\n')
 
@@ -21,9 +23,7 @@ def check_argument_validity():  # is old
 
 
 def start_generation_per_seed_file():
-    global starttime
     processed_files = []
-    starttime = time.time()
     for file_path in sys.argv[3:]:
         if file_path not in processed_files:
             split_lines = open(file_path).read().strip().split('\n')
@@ -61,8 +61,6 @@ def generate_all_substrings(sentence):
 
                 if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     permute_based_on_casing(substring)
-                    for passphrase in phrases_to_crack:
-                        check_lev_distance("".join(substring), passphrase.replace(' ', ''))
 
 
 def permute_based_on_casing(words_list):
@@ -73,29 +71,35 @@ def permute_based_on_casing(words_list):
     casing_permutations = map(''.join, itertools.product(*((c.upper(), c.lower()) for c in all_first_chars)))
 
     for casing_permutation in casing_permutations:
-        case_permuted_word = ''
+        case_permuted_words = []
         for i in range(len(words_list)):
-            case_permuted_word += ' ' + casing_permutation[i] + words_list[i][1:]
+            current_word = words_list[i]
+            cased_word = casing_permutation[i] + current_word[1:]
+            case_permuted_words.append(cased_word)
 
-        check_results(case_permuted_word[1:])
-        check_results(case_permuted_word.replace(' ', ''))
+        permute_based_on_spacing(case_permuted_words)
+
+
+def permute_based_on_spacing(words):
+    no_whitespace = ''.join(words)
+    with_whitespace = ' '.join(words)
+    check_results(no_whitespace)
+    check_results(with_whitespace)
 
 
 def check_results(mutation_result):
     global gen_counter, phrases_cracked
     gen_counter += 1
 
-    if gen_counter % 1e6 == 0:
+    if gen_counter % 250000 == 0:
         logfile.write('Generated ' + str(gen_counter / 1e6) + 'm passphrases')
         logfile.write('\n')
         logfile.write('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
         logfile.write('\n')
         for index, passphrase in enumerate(smallest_lev_distances):
             logfile.write('Minimum for passphrase {} had a distance of {} with: "{}"'.
-                          format(index + 1, smallest_lev_distances[passphrase.replace(' ', '')],
-                                 closest_mutations[passphrase]))
+                          format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
             logfile.write('\n')
-        logfile.flush()
 
     for passphrase in phrases_to_crack:
         if mutation_result == passphrase:
@@ -106,25 +110,28 @@ def check_results(mutation_result):
             phrases_cracked += 1
             if phrases_cracked == len(phrases_to_crack):
                 logfile.write('Done!')
-                logfile.write('\n')
-                raise Exception(":)")
+                sys.exit(0)
+        check_lev_distance(mutation_result, passphrase)
 
 
 def check_lev_distance(mutation_result, passphrase):
-    lev_distance = pylev.wfi_levenshtein(passphrase, mutation_result)
+    lev_distance = levenshtein(passphrase, mutation_result)
     if lev_distance < smallest_lev_distances[passphrase]:
-        smallest_lev_distances[passphrase.replace(' ', '')] = lev_distance
-        closest_mutations[passphrase.replace(' ', '')] = mutation_result
+        smallest_lev_distances[passphrase] = lev_distance
+        closest_mutations[passphrase] = mutation_result
 
 
 # PROGRAM
-# RUN AS: pypy ppgen.py c026 aGFzdGUgdHJhaW4gYW1zdGVsIHV0cmVjaHQ= ./quotes/*/samuel_l_jackson.txt
 
 gen_counter = 0
 phrases_cracked = 0
 smallest_lev_distances = {}
 closest_mutations = {}
+starttime = time.time()
 check_argument_validity()
+
+# INPUT AS: pypy ppgen.py <survey_id> <base64> <seeds>
+# pypy ppgen_multi.py c026 aGFzdGUgdHJhaW4gYW1zdGVsIHV0cmVjaHQ= ./quotes/*/samuel_l_jackson.txt
 
 logfile_path = './logs/' + sys.argv[1] + '.log'
 if os.path.isfile(logfile_path):
@@ -138,19 +145,14 @@ for encoded_pp in phrases_to_crack_b64:
     if encoded_pp.strip() == '' or decoded_pp.strip() == '':
         continue
     phrases_to_crack.append(decoded_pp)
-    smallest_lev_distances[decoded_pp.replace(' ', '')] = sys.maxint
-    closest_mutations[decoded_pp.replace(' ', '')] = ''
+    smallest_lev_distances[decoded_pp] = sys.maxint
+    closest_mutations[decoded_pp] = ''
 
 try:
     start_generation_per_seed_file()
 except KeyboardInterrupt:
-    logfile.write('\nppgen: received KeyboardInterrupt')
-    logfile.write('\n')
-    logfile.write('generated ' + str(gen_counter) + ' passphrases\n')
-    logfile.write('\n')
-except Exception as e:
-    if e.args[0] != ':)':
-        raise e
+    print('\nppgen: received KeyboardInterrupt')
+    print('generated ' + str(gen_counter) + ' passphrases\n')
 else:
     logfile.write('generated ' + str(gen_counter) + ' passphrases')
     logfile.write('\n')
@@ -160,6 +162,3 @@ else:
         logfile.write('\n')
         logfile.write('No success')
         logfile.write('\n')
-
-logfile.write('{}m/s'.format(gen_counter / (time.time() - starttime) / 1e6))
-logfile.write('\n')
