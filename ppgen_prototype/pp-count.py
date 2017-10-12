@@ -62,8 +62,6 @@ def generate_all_substrings(sentence):
                 if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     total += 2 * (2**len(substring))
                     permute_based_on_casing(substring)
-                    for passphrase in phrases_to_crack:
-                        check_lev_distance("".join(substring), passphrase.replace(' ', ''))
 
 
 
