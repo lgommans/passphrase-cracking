@@ -1,0 +1,40 @@
+
+generating passphrases with ./lyrics/Metal/Nirvana.txt
+Generated 1.0m passphrases
+0.956m/s
+Minimum for passphrase 1 had a distance of 18 with: "whywelostitfromthestart"
+Generated 2.0m passphrases
+1.113m/s
+Minimum for passphrase 1 had a distance of 18 with: "whywelostitfromthestart"
+Generated 3.0m passphrases
+1.216m/s
+Minimum for passphrase 1 had a distance of 18 with: "whywelostitfromthestart"
+Generated 4.0m passphrases
+1.227m/s
+Minimum for passphrase 1 had a distance of 18 with: "whywelostitfromthestart"
+Generated 5.0m passphrases
+1.281m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 6.0m passphrases
+1.335m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 7.0m passphrases
+1.376m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 8.0m passphrases
+1.407m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 9.0m passphrases
+1.427m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 10.0m passphrases
+1.452m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+Generated 11.0m passphrases
+1.464m/s
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+generated everything for ./lyrics/Metal/Nirvana.txt
+generated 11260456 passphrases
+Minimum for passphrase 1 had a distance of 17 with: "hadpassedhimonthestairs"
+No success
+1.46597459723m/s

@@ -1,0 +1,91 @@
+
+generating passphrases with ./quotes/American/darren_aronofsky.txt
+Generated 1.0m passphrases
+1.65m/s
+Minimum for passphrase 1 had a distance of 44 with: "ItrytolivemylifewhereIendup"
+Generated 2.0m passphrases
+1.618m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 3.0m passphrases
+1.567m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 4.0m passphrases
+1.429m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 5.0m passphrases
+1.419m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/American/darren_aronofsky.txt
+
+generating passphrases with ./quotes/Director/darren_aronofsky.txt
+Generated 6.0m passphrases
+1.421m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 7.0m passphrases
+1.459m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 8.0m passphrases
+1.459m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 9.0m passphrases
+1.455m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 10.0m passphrases
+1.477m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 11.0m passphrases
+1.492m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/Director/darren_aronofsky.txt
+
+generating passphrases with ./quotes/American/michael_haneke.txt
+Generated 12.0m passphrases
+1.473m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 13.0m passphrases
+1.463m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/American/michael_haneke.txt
+
+generating passphrases with ./quotes/Director/michael_haneke.txt
+Generated 14.0m passphrases
+1.471m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 15.0m passphrases
+1.47m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 16.0m passphrases
+1.452m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/Director/michael_haneke.txt
+
+generating passphrases with ./quotes/American/kurt_vonnegut.txt
+Generated 17.0m passphrases
+1.453m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 18.0m passphrases
+1.445m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 19.0m passphrases
+1.439m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/American/kurt_vonnegut.txt
+
+generating passphrases with ./quotes/Author/kurt_vonnegut.txt
+Generated 20.0m passphrases
+1.439m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 21.0m passphrases
+1.434m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 22.0m passphrases
+1.419m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+Generated 23.0m passphrases
+1.409m/s
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+generated everything for ./quotes/Author/kurt_vonnegut.txt
+generated 23830192 passphrases
+Minimum for passphrase 1 had a distance of 36 with: "Myworstfearismakingafilmthatpeople"
+No success
+1.40520436896m/s
