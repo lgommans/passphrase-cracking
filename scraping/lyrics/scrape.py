@@ -33,7 +33,7 @@ def scrape(artistfile):
     artists.close()
 
 
-# remove duplicate lines an punctuation
+# remove duplicate lines and punctuation
 
 def remove_dupes(inputfile, outputfile):
     lines_seen = set() # holds lines already seen
@@ -53,3 +53,5 @@ def strip_files(directory):
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         remove_dupes(directory + filename, directory + filename + '.stripped')
+
+scrape('todo.txt')
