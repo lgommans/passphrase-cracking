@@ -1,0 +1,10 @@
+OUT OF SCOPE
+
+<poems>
+<film scripts / tv show scripts>
+<surroundings>
+<job jargon>
+<tv show? take actors from show>
+<fav movie? take actors from the movie>
+<books>
+
