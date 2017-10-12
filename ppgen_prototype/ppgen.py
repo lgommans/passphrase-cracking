@@ -3,6 +3,7 @@ import sys
 from base64 import b64decode
 import time
 from pylev import levenshtein
+import os.path
 
 
 # FUNCTIONS
@@ -14,14 +15,22 @@ def check_argument_validity():
         print('Example usage:\tpypy ppgen.py ./to_crack.txt ./quotes/*/albert_einstein.txt ./quotes/Aviator/*')
         print('Example usage:\tpypy ppgen.py ./to_crack.txt ./lyrics/*/Anouk.txt ./lyrics/Metal/*\n')
         sys.exit()
+    for file_path in sys.argv[2:]:
+        if not os.path.isfile(file_path):
+            print('\nOne of the specified files does not exist.')
 
 
 def start_generation_per_input_file():
-    for input_file in sys.argv[2:]:
-        split_lines = open(input_file).read().strip().split('\n')
-        print('\ngenerating passphrases with ' + str(input_file))
-        generate_passphrases(split_lines)
-        print('generated everything for ' + str(input_file))
+    processed_files = []
+    for file_path in sys.argv[2:]:
+        if file_path not in processed_files:
+            split_lines = open(file_path).read().strip().split('\n')
+            print('\ngenerating passphrases with ' + str(file_path))
+            generate_passphrases(split_lines)
+            print('generated everything for ' + str(file_path))
+            processed_files.append(file_path)
+        else:
+            continue
 
 
 def generate_passphrases(split_lines):
@@ -46,7 +55,7 @@ def generate_all_substrings(sentence):
             for j in range(i, length):  # from i to length - 1
                 substring = sentence[i:j + 1:]  # j + 1 since the slice is exclusive
 
-                if 12 <= sum(len(i) for i in substring) <= 64:  # only in the range of 12 to 64 characters
+                if 15 <= sum(len(i) for i in substring) <= 53:  # range for number of characters
                     permute_based_on_casing(substring)
 
 
@@ -77,45 +86,51 @@ def permute_based_on_spacing(words):
 def check_results(mutation_result):
     global gen_counter, phrases_cracked
     gen_counter += 1
-    if gen_counter % 1e5 == 0:
-        print('generated ' + str(gen_counter/1e6) + 'm passphrases')
+
+    if gen_counter % 250000 == 0:
+        print('Generated ' + str(gen_counter / 1e6) + 'm passphrases')
         print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
-        for index, passphrase in enumerate(minlev):
-            print('Minimum for passphrase {} had a distance of {} with: "{}"'.format(index, minlev[passphrase], best[passphrase]))
+        for index, passphrase in enumerate(smallest_lev_distances):
+            print('Minimum for passphrase {} had a distance of {} with: "{}"'.
+                  format(index + 1, smallest_lev_distances[passphrase], closest_mutations[passphrase]))
 
     for passphrase in phrases_to_crack:
         if mutation_result == passphrase:
-            print('\nPassphrase cracked: ')
-            print(mutation_result + '\n')
-            print('generated ' + str(gen_counter/1e6) + 'm passphrases\n')
+            print('\nPassphrase cracked: ' + mutation_result + '\n')
+            print('Generated ' + str(gen_counter / 1e6) + 'm passphrases\n')
             phrases_cracked += 1
             if phrases_cracked == len(phrases_to_crack):
                 print('Done!')
                 sys.exit(0)
+        check_lev_distance(mutation_result, passphrase)
 
-        distance = levenshtein(passphrase, mutation_result)
-        if distance < minlev[passphrase]:
-            minlev[passphrase] = distance
-            best[passphrase] = mutation_result
+
+def check_lev_distance(mutation_result, passphrase):
+    lev_distance = levenshtein(passphrase, mutation_result)
+    if lev_distance < smallest_lev_distances[passphrase]:
+        smallest_lev_distances[passphrase] = lev_distance
+        closest_mutations[passphrase] = mutation_result
 
 
 # PROGRAM
 
-phrases_cracked = 0
-minlev = {}
-best = {}
-starttime = time.time()
 gen_counter = 0
+phrases_cracked = 0
+smallest_lev_distances = {}
+closest_mutations = {}
+starttime = time.time()
+
 check_argument_validity()
+
 phrases_to_crack_b64 = open(sys.argv[1]).read().strip().split('\n')
 phrases_to_crack = []
-for b in phrases_to_crack_b64:
-    x = b64decode(b)
-    if b.strip() == '' or x.strip() == '':
+for encoded_pp in phrases_to_crack_b64:
+    decoded_pp = b64decode(encoded_pp)
+    if encoded_pp.strip() == '' or decoded_pp.strip() == '':
         continue
-    phrases_to_crack.append(x)
-    minlev[x] = 1e9
-    best[x] = ''
+    phrases_to_crack.append(decoded_pp)
+    smallest_lev_distances[decoded_pp] = sys.maxint
+    closest_mutations[decoded_pp] = ''
 
 try:
     start_generation_per_input_file()
@@ -125,4 +140,3 @@ except KeyboardInterrupt:
 else:
     print('generated ' + str(gen_counter) + ' passphrases')
     print('No success')
-
