@@ -49,9 +49,9 @@ def remove_dupes(inputfile, outputfile):
 # Calls remove_dupes for all files in a directory
 
 def strip_files(directory):
-    directory = os.fsencode(directory)
+
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         remove_dupes(directory + filename, directory + filename + '.stripped')
 
-scrape('todo.txt')
+strip_files('database/')
