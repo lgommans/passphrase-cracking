@@ -3,6 +3,7 @@ import sys
 import time
 import os.path
 import hashlib
+import binascii
 
 
 # FUNCTIONS
@@ -48,6 +49,12 @@ def start_generation_per_seed_file():
 
 def generate_passphrases(split_lines):
     for line in split_lines:
+        newline = ''
+        for c in line:
+            if ord(c) < 128:
+                newline += c
+        line = newline
+
         while ',' in line or "'" in line or ':' in line or ';' in line:
             line = line.strip().replace(',', '.').replace("'", '').replace(':', '.').replace(';', '.')
         split_line = line.split('.')
@@ -103,12 +110,12 @@ def check_results(mutation_result):
         print('Generated ' + str(gen_counter / 1e7) + 'm passphrases')
         print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
 
-    hashed_mutation_result = hashlib.sha1(mutation_result.encode()).hexdigest()
+    hashed_mutation_result = hashlib.sha1(mutation_result.encode()).digest()[0:7]
     search_result = binary_search(hashed_mutation_result, 0, input_hashes_length - 1)
     if search_result != -1:
         print('\n|Passphrase cracked| \n')
         print('Passphrase: ' + mutation_result)
-        print('Hash: ' + hashed_mutation_result + '\n')
+        print('Hash: ' + binascii.hexlify(hashed_mutation_result) + '\n')
         phrases_cracked += 1
         if phrases_cracked == input_hashes_length:
             print('Done!')
@@ -125,7 +132,11 @@ closest_mutations = {}
 starttime = time.time()
 
 check_argument_validity()
-input_hashes = sorted(open(sys.argv[1]).read().strip().splitlines())
+f = open(sys.argv[1])
+input_hashes = [] #open(sys.argv[1]).read().strip().splitlines()
+for line in f:
+    input_hashes.append(binascii.unhexlify(line.strip()[0:14]))
+
 input_hashes_length = len(input_hashes)
 
 try:
