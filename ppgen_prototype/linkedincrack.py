@@ -4,6 +4,7 @@ import time
 import os.path
 import hashlib
 import binascii
+import gc
 
 
 # FUNCTIONS
@@ -13,9 +14,9 @@ def binary_search(input_hash, low, high):
     if high < low:
         return -1  # no more numbers
     mid = (low + high) // 2  # midpoint in array
-    if input_hash == input_hashes[mid]:
+    if input_hash == input_hashes[mid*hashlen:(mid+1)*hashlen]:
         return mid  # number found here
-    elif input_hash < input_hashes[mid]:
+    elif input_hash < input_hashes[mid*hashlen:(mid+1)*hashlen]:
         return binary_search(input_hash, low, mid - 1)  # try left of here
     else:
         return binary_search(input_hash, mid + 1, high)  # try above here
@@ -39,9 +40,9 @@ def start_generation_per_seed_file():
     for file_path in sys.argv[2:]:
         if file_path not in processed_files:
             split_lines = open(file_path).read().strip().split('\n')
-            print('\ngenerating passphrases with ' + str(file_path))
+            sys.stderr.write('\ngenerating passphrases with ' + str(file_path) + '\n')
             generate_passphrases(split_lines)
-            print('generated everything for ' + str(file_path))
+            sys.stderr.write('generated everything for ' + str(file_path) + '\n')
             processed_files.append(file_path)
         else:
             continue
@@ -104,40 +105,54 @@ def permute_based_on_spacing(words):
 
 
 def check_results(mutation_result):
-    global gen_counter, phrases_cracked
+    global gen_counter
     gen_counter += 1
     if gen_counter % 1e7 == 0:
-        print('Generated ' + str(gen_counter / 1e7) + 'm passphrases')
-        print('{}m/s'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
+        sys.stderr.write('Generated ' + str(gen_counter / 1e7) + 'm passphrases\n')
+        sys.stderr.write('{}m/s\n'.format(round(gen_counter / (time.time() - starttime) / 1000) / 1000))
 
-    hashed_mutation_result = hashlib.sha1(mutation_result.encode()).digest()[0:7]
+    hashed_mutation_result = hashlib.sha1(mutation_result.encode()).digest()[0:hashlen]
     search_result = binary_search(hashed_mutation_result, 0, input_hashes_length - 1)
     if search_result != -1:
-        print('\n|Passphrase cracked| \n')
-        print('Passphrase: ' + mutation_result)
-        print('Hash: ' + binascii.hexlify(hashed_mutation_result) + '\n')
-        phrases_cracked += 1
-        if phrases_cracked == input_hashes_length:
-            print('Done!')
-            sys.exit(0)
+        #print('\n|Passphrase cracked| \n')
+        print('{} {} {}'.format(binascii.hexlify(hashed_mutation_result), search_result, mutation_result))
+        #print('Hash: ' + binascii.hexlify(hashed_mutation_result) + '\n')
 
 
 # PROGRAM
 # RUN AS: pypy linkedincrack.py <hashes> ./lyrics/* ./quotes/*
 
 gen_counter = 0
-phrases_cracked = 0
 smallest_lev_distances = {}
 closest_mutations = {}
 starttime = time.time()
 
+hashlen = 6
+
 check_argument_validity()
 f = open(sys.argv[1])
-input_hashes = [] #open(sys.argv[1]).read().strip().splitlines()
+tmp = [] #open(sys.argv[1]).read().strip().splitlines()
+last = None
+input_hashes = ''
+i = 0
 for line in f:
-    input_hashes.append(binascii.unhexlify(line.strip()[0:14]))
+    x = binascii.unhexlify(line.strip()[0:hashlen*2])
+    if x == last:
+        continue
+    last = x
+    tmp.append(x)
+    i += 1
+    if i % 1e6 == 0:
+        input_hashes += ''.join(tmp)
+        tmp = []
 
-input_hashes_length = len(input_hashes)
+input_hashes += ''.join(tmp)
+tmp = []
+
+input_hashes_length = len(input_hashes)/hashlen
+
+sys.stderr.write('Loaded ' + str(input_hashes_length) + ' hashes.\n')
+gc.collect()
 
 try:
     start_generation_per_seed_file()
